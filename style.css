@@ -97,6 +97,61 @@ a {
     margin-top: 60px;
 }
 
+.social {
+    position: absolute;
+    margin-left: 420px;
+    margin-top: 120px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+svg {
+    margin-left: 10px;
+}
+
+.github-link {
+    position: relative;
+    margin-top: 100px;
+    color: #8bb9eb;
+    background-color: #202023;
+    font-weight: 700;
+    margin-left: -1300px;
+}
+
+.github-link:hover {
+    color: #8bb9eb;
+}
+
+.linkedin-link {
+    position: relative;
+    margin-top: 220px;
+    color: #8bb9eb;
+    background-color: #202023;
+    font-weight: 700;
+    margin-left: -175px;
+}
+
+.linkedin-link:hover {
+    color: #8bb9eb;   
+}
+
+.todo {
+    float: left;
+    width: 250px;
+    margin-top: 300px;
+    margin-left: 420px;
+    border-radius: 5px;
+}
+
+.booklist {
+    float: left;
+    width: 250px;
+    margin-top: 300px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+
 @media screen and (max-width: 800px) {
     * {
         color: white;
@@ -204,7 +259,27 @@ a {
         position: relative;
         left: -380px;
         top: -50px;
+        margin-right: -270px;
+        margin-left: 400px;
+    }
+
+    .social {
+        position: relative;
+        left: -480px;
+        top: -140px;
         margin-right: -350px;
         margin-left: 400px;
+    }
+
+    .github-link {
+        position: relative;
+        top: -290px;
+        left: 50px;
+    }
+
+    .linkedin-link {
+        position: absolute;
+        left: 290px;
+        top: 630px;
     }
 }
