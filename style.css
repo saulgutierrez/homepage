@@ -151,6 +151,18 @@ svg {
     border-radius: 5px;
 }
 
+.label-todo {
+    float: left;
+    margin-top: 430px;
+    margin-left: -480px;
+}
+
+.label-booklist {
+    float: left;
+    margin-top: 430px;
+    margin-left: -200px;
+}
+
 
 @media screen and (max-width: 800px) {
     * {
@@ -272,14 +284,43 @@ svg {
     }
 
     .github-link {
-        position: relative;
-        top: -290px;
-        left: 50px;
+        position: absolute;
+        left: -370px;
+        top: 690px;
+        margin-left: 400px;
     }
 
     .linkedin-link {
         position: absolute;
-        left: 290px;
-        top: 630px;
+        left: 200px;
+        top: 620px;
+    }
+
+    .todo {
+        position: absolute;
+        top: 600px;
+        left: -380px;
+    }
+
+    .booklist {
+        position: absolute;
+        top: 800px;
+        left: -460px;
+        margin-left: 500px;
+        margin-right: 100px;
+    }
+
+    .label-todo {
+        position: absolute;
+        top: 800px;
+        left: -460px;
+        margin-left: 500px;
+    }
+
+    .label-booklist {
+        position: absolute;
+        top: 600px;
+        left: -460px;
+        margin-left: 500px;
     }
 }
