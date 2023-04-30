@@ -41,6 +41,7 @@ a {
     font-size: 30px;
     font-weight: 700;
     text-align: left;
+    margin-top: 50px;
 }
 
 .perfil-description {
@@ -53,6 +54,7 @@ a {
     border-radius: 50%;
     height: 100px;
     border: white 3px solid;
+    margin-top: 50px;
 }
 
 .bio {
@@ -141,6 +143,11 @@ svg {
     margin-top: 300px;
     margin-left: 420px;
     border-radius: 5px;
+    opacity: 0.5;
+}
+
+.todo:hover {
+    opacity: 1;
 }
 
 .booklist {
@@ -149,6 +156,11 @@ svg {
     margin-top: 300px;
     margin-left: 30px;
     border-radius: 5px;
+    opacity: 0.5;
+}
+
+.booklist:hover {
+    opacity: 1;
 }
 
 .label-todo {
@@ -161,6 +173,13 @@ svg {
     float: left;
     margin-top: 430px;
     margin-left: -200px;
+}
+
+.btn-projects {
+    font-weight: 700;
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 20px;
 }
 
 
