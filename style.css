@@ -194,6 +194,29 @@ svg {
     display: none;
 }
 
+.works {
+    position: absolute;
+    top: 100px;
+    left: 420px;
+    font-weight: 700;
+}
+
+.todo-works {
+    margin-top: 150px;
+}
+
+.booklist-works {
+    margin-top: 150px;
+}
+
+.label-todo-works {
+    margin-top: 290px;
+}
+
+.label-booklist-works {
+    margin-top: 290px;
+}
+
 @media screen and (max-width: 800px) {
     * {
         color: white;
@@ -297,8 +320,9 @@ svg {
         position: relative;
         left: -380px;
         top: -50px;
-        margin-right: -270px;
-        margin-left: 400px;
+        margin-right: -330px;
+        margin-left: 420px;
+        text-align: left;
     }
 
     .social {
