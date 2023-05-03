@@ -190,6 +190,10 @@ svg {
     padding-bottom: 20px;
 }
 
+.menu {
+    display: none;
+}
+
 @media screen and (max-width: 800px) {
     * {
         color: white;
@@ -206,10 +210,6 @@ svg {
         color: white;
         font-weight: 700;
         text-decoration: none;
-    }
-
-    nav-link {
-        color: white;
     }
 
     .description {
@@ -360,5 +360,10 @@ svg {
     .footer {
         position: absolute;
         top: 1060px;
+    }
+
+    .menu {
+        display: block;
+        padding-left: 35%;
     }
 }
