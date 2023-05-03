@@ -182,6 +182,13 @@ svg {
     margin-left: 20px;
 }
 
+.footer {
+    color: #4d4d4f;
+    font-size: 16px;
+    position: relative;
+    margin-top: 280px;
+    padding-bottom: 20px;
+}
 
 @media screen and (max-width: 800px) {
     * {
@@ -341,5 +348,17 @@ svg {
         top: 600px;
         left: -460px;
         margin-left: 500px;
+    }
+
+    .btn-projects {
+        position: absolute;
+        top: 800px;
+        left: -400px;
+        margin-left: 500px;
+    }
+
+    .footer {
+        position: absolute;
+        top: 1060px;
     }
 }
