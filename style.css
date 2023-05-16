@@ -1,15 +1,15 @@
 * {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 body{
-    background-color: #202023;
+    background-color: rgb(32, 32, 35);
     font-size: 20px;
     display: block;
     text-align: center;
 }
 
 a {
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: 700;
     text-decoration: none;
 }
@@ -24,7 +24,7 @@ a {
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #313134;
+    background-color: rgb(49, 49, 52);
     padding: 20px;
     border-radius: 25px;
 }
@@ -53,7 +53,7 @@ a {
 .img {
     border-radius: 50%;
     height: 100px;
-    border: white 3px solid;
+    border: rgb(255, 255, 255) 3px solid;
     margin-top: 50px;
     margin-right: 20px;
 }
@@ -115,27 +115,27 @@ svg {
 .github-link {
     position: relative;
     margin-top: 100px;
-    color: #8bb9eb;
-    background-color: #202023;
+    color: rgb(139, 185, 235);
+    background-color: rgb(32, 32, 35);
     font-weight: 700;
     margin-left: -1300px;
 }
 
 .github-link:hover {
-    color: #8bb9eb;
+    color: rgb(139, 185, 235);
 }
 
 .linkedin-link {
     position: relative;
     margin-top: 220px;
-    color: #8bb9eb;
-    background-color: #202023;
+    color: rgb(140, 186, 235);
+    background-color: rgb(32, 32, 35);
     font-weight: 700;
     margin-left: -175px;
 }
 
 .linkedin-link:hover {
-    color: #8bb9eb;   
+    color: rgb(139, 185, 235);   
 }
 
 .todo {
@@ -184,7 +184,7 @@ svg {
 }
 
 .footer {
-    color: #4d4d4f;
+    color: rgb(77, 77, 79);
     font-size: 16px;
     position: relative;
     margin-top: 280px;
@@ -192,13 +192,22 @@ svg {
 }
 
 .footer-works {
-    color: #4d4d4f;
+    color: rgb(77, 77, 79);
     font-size: 16px;
     position: relative;
     top: 850px;
     left: -620px;
     margin-right: -300px;
     padding-bottom: 20px;
+}
+
+.footer-analog-clock {
+    color: rgb(77, 77, 79);
+    font-size: 16px;
+    position: relative;
+    margin-top: 280px;
+    padding-bottom: 20px;
+    margin-top: 60%;
 }
 
 .menu {
@@ -301,6 +310,106 @@ svg {
     margin-top: 550px;
     margin-left: 700px;
     text-align: left;
+}
+
+.top-content-clock {
+    position: absolute;
+    left: 30%;
+    top: 15%;
+}
+
+.analog-clock-title {
+    float: left;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.analog-clock-year {
+    float: left;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(139, 185, 235);
+}
+
+.analog-clock-container {
+    position: absolute;
+    left: 30%;
+    top: 21%;
+    font-size: 16px;
+    right: 30%;
+    text-align: justify;
+}
+
+.analog-clock-full-description {
+    float: left;
+}
+
+.analog-clock-features {
+    position: absolute;
+    left: 5%;
+    top: 120%;
+}
+
+.analog-clock-platform-label {
+    float: left;
+    font-size: 16px;
+    margin-right: 20px;
+    background: rgb(139, 185, 235, 0.5);
+    padding: 0px 5px;
+}
+
+.analog-clock-platform {
+    float: left;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(139, 185, 235);
+}
+
+.analog-clock-platform:hover {
+    color: rgb(255, 255, 255);
+}
+
+.analog-clock-features-github {
+    position: absolute;
+    left: 5%;
+    top: 160%;
+}
+
+.analog-clock-github-label {
+    float: left;
+    font-size: 16px;
+    margin-right: 20px;
+    padding: 0px 5px;
+    background: rgb(139, 185, 235, 0.5);
+}
+
+.analog-clock-github-link {
+    float: left;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(139, 185, 235);
+}
+
+.analog-clock-github-link:hover {
+    color: rgb(255, 255, 255);
+}
+
+.analog-clock-tech-label {
+    position: absolute;
+    top: 220%;
+}
+
+.analog-clock-tech-list {
+    position: absolute;
+    margin-top: 45%;
+}
+
+.analog-clock-img {
+    position: absolute;
+    width: 550px;
+    margin-left: -100%;
+    margin-top: 65%;
 }
 
 .coffe {
