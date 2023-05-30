@@ -195,9 +195,8 @@ svg {
     color: rgb(77, 77, 79);
     font-size: 16px;
     position: relative;
-    top: 850px;
-    left: -620px;
-    margin-right: -300px;
+    top: 1100px;
+    left: 0px;
     padding-bottom: 20px;
 }
 
@@ -210,6 +209,15 @@ svg {
     margin-top: 60%;
 }
 
+.footer-todo {
+    color: rgb(77, 77, 79);
+    font-size: 16px;
+    position: relative;
+    margin-top: 280px;
+    padding-bottom: 20px;
+    margin-top: 65%;
+}
+
 .menu {
     display: none;
 }
@@ -217,30 +225,56 @@ svg {
 .works {
     position: absolute;
     top: 100px;
-    left: 420px;
+    right: 50px;
+    bottom: 50px;
+    left: -390px;
     font-weight: 700;
 }
 
 .todo-works {
+    position: absolute;
+    width: 250px;
+    margin-top: 880px;
+    margin-left: -250px;
+    border-radius: 5px;
+    opacity: 0.5;
     margin-top: 150px;
 }
 
 .booklist-works {
+    position: absolute;
+    width: 250px;
+    margin-top: 880px;
+    margin-left: 25px;
+    border-radius: 5px;
+    opacity: 0.5;
     margin-top: 150px;
 }
 
 .label-todo-works {
-    margin-top: 290px;
+    position: absolute;
+    top: -140px;
+    right: 50px;
+    bottom: 50px;
+    left: 130px;
+    font-weight: 700;
 }
 
 .label-booklist-works {
-    margin-top: 290px;
+    position: absolute;
+    top: -140px;
+    right: 50px;
+    bottom: 50px;
+    left: 410px;
+    font-weight: 700;
 }
 
 .todo-description {
     position: absolute;
     top: 320px;
-    left: 420px;
+    right: 50px;
+    bottom: 50px;
+    left: -210px;
     font-weight: 400;
     font-size: 16px;
 }
@@ -248,18 +282,18 @@ svg {
 .booklist-description {
     position: absolute;
     top: 320px;
-    left: 700px;
+    right: 50px;
+    bottom: 50px;
+    left: 315px;
     font-weight: 400;
     font-size: 16px;
-    margin-right: 450px;
-    text-align: left;
 }
 
 .dictionary {
     position: absolute;
     width: 250px;
     margin-top: 380px;
-    margin-left: -738px;
+    margin-left: -250px;
     border-radius: 5px;
     opacity: 0.5;
 }
@@ -272,7 +306,7 @@ svg {
     position: absolute;
     width: 250px;
     margin-top: 380px;
-    margin-left: -457px;
+    margin-left: 25px;
     border-radius: 5px;
     opacity: 0.5;
 }
@@ -283,33 +317,39 @@ svg {
 
 .label-dictionary {
     position: absolute;
-    margin-top: 520px;
-    margin-left: 460px;
+    top: 520px;
+    right: 0px;
+    bottom: 50px;
+    left: -360px;
+    font-weight: 700;
 }
 
 .dictionary-description {
     position: absolute;
-    font-weight: 400;
+    top: 550px;
+    right: 0px;
+    bottom: 50px;
+    left: -285px;
     font-size: 16px;
-    margin-top: 550px;
-    margin-left: 420px;
-    margin-right: 700px;
-    text-align: left;
 }
 
 .label-analog-clock {
     position: absolute;
-    margin-top: 520px;
-    margin-left: 750px;
+    top: 520px;
+    right: 50px;
+    bottom: 50px;
+    left: 230px;
+    font-weight: 700;
 }
 
 .analog-clock-description {
     position: absolute;
-    font-weight: 400;
+    top: 550px;
+    right: 50px;
+    bottom: 50px;
+    left: 290px;
     font-size: 16px;
-    margin-top: 550px;
-    margin-left: 700px;
-    text-align: left;
+    font-weight: 400;
 }
 
 .top-content-clock {
@@ -416,7 +456,7 @@ svg {
     position: absolute;
     width: 250px;
     margin-top: 620px;
-    margin-left: -738px;
+    margin-left: -250px;
     border-radius: 5px;
     opacity: 0.5;
 }
@@ -429,7 +469,7 @@ svg {
     position: absolute;
     width: 250px;
     margin-top: 620px;
-    margin-left: -457px;
+    margin-left: 25px;
     border-radius: 5px;
     opacity: 0.5;
 }
@@ -440,33 +480,171 @@ svg {
 
 .label-coffe {
     position: absolute;
-    margin-top: 760px;
-    margin-left: 460px;
+    top: 760px;
+    right: 0px;
+    bottom: 50px;
+    left: -450px;
+    font-weight: 700;
 }
 
 .coffe-description {
     position: absolute;
-    font-weight: 400;
+    top: 790px;
+    left: -290px;
+    right: 0px;
+    bottom: 0px;
     font-size: 16px;
-    margin-top: 790px;
-    margin-left: 420px;
-    text-align: left;
+    font-weight: 400;
 }
 
 .label-bienes-raices {
     position: absolute;
-    margin-top: 760px;
-    margin-left: 760px;
+    top: 760px;
+    right: 0px;
+    bottom: 50px;
+    left: 175px;
+    font-weight: 700;
 }
 
 .bienes-raices-description {
     position: absolute;
+    top: 790px;
+    left: 280px;
+    right: 0px;
+    bottom: 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.todo-features {
+    position: absolute;
+    left: 5%;
+    top: 120%;
+}
+
+.todo-platform-label {
+    float: left;
+    font-size: 16px;
+    margin-right: 20px;
+    background: rgb(139, 185, 235, 0.5);
+    padding: 0px 5px;
+}
+
+.todo-platform {
+    float: left;
     font-weight: 400;
     font-size: 16px;
-    margin-top: 790px;
-    margin-left: 700px;
-    text-align: left;
-    margin-right: 400px;
+    color: rgb(139, 185, 235);
+}
+
+.todo-platform:hover {
+    color: rgb(255, 255, 255);
+}
+
+.todo-features-github {
+    position: absolute;
+    left: 5%;
+    top: 145%;  
+}
+
+.todo-github-label {
+    float: left;
+    font-size: 16px;
+    margin-right: 20px;
+    padding: 0px 5px;
+    background: rgb(139, 185, 235, 0.5);
+}
+
+.todo-github-link {
+    float: left;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(139, 185, 235);
+}
+
+.todo-link:hover {
+    color: rgb(255, 255, 255);
+}
+
+.todo-tech-label {
+    position: absolute;
+    top: 180%;
+}
+
+.todo-tech-list {
+    position: absolute;
+    margin-top: 55%;
+}
+
+.todo-img {
+    position: absolute;
+    width: 550px;
+    margin-left: -100%;
+    margin-top: 75%;
+}
+
+.music-player {
+    position: absolute;
+    width: 250px;
+    margin-top: 880px;
+    margin-left: -250px;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+.music-player:hover {
+    opacity: 1;
+}
+
+.richiest-people {
+    position: absolute;
+    width: 250px;
+    margin-top: 880px;
+    margin-left: 25px;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+.richiest-people:hover {
+    opacity: 1;
+}
+
+.label-music-player {
+    position: absolute;
+    top: 1020px;
+    right: 0px;
+    bottom: 50px;
+    left: -380px;
+    font-weight: 700;
+}
+
+.music-player-description {
+    position: absolute;
+    top: 1050px;
+    left: -315px;
+    right: 0px;
+    bottom: 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.label-drag-drop {
+    position: absolute;
+    top: 1020px;
+    right: 0px;
+    bottom: 50px;
+    left: 220px;
+    font-weight: 700;
+}
+
+.drag-drop-description {
+    position: absolute;
+    top: 1050px;
+    left: 240px;
+    right: 0px;
+    bottom: 0px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 @media screen and (max-width: 800px) {
