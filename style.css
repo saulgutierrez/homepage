@@ -259,10 +259,10 @@ svg {
 .footer-todo {
     color: rgb(77, 77, 79);
     font-size: 16px;
-    position: relative;
-    top: 850px;
-    left: 0px;
-    padding-bottom: 20px;
+    position: absolute;
+    top: 125%;
+    width: 100%;
+    padding-bottom: 5%;
 }
 
 .menu {
