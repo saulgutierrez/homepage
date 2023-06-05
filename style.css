@@ -260,9 +260,9 @@ svg {
     color: rgb(77, 77, 79);
     font-size: 16px;
     position: relative;
-    margin-top: 280px;
+    top: 850px;
+    left: 0px;
     padding-bottom: 20px;
-    margin-top: 65%;
 }
 
 .menu {
@@ -620,14 +620,14 @@ svg {
 
 .todo-tech-list {
     position: absolute;
-    margin-top: 55%;
+    top: 210%;
 }
 
 .todo-img {
     position: absolute;
-    width: 550px;
-    margin-left: -100%;
-    margin-top: 75%;
+    width: 100%;
+    top: 280%;
+    left: 0%;
 }
 
 .music-player {
