@@ -260,9 +260,9 @@ svg {
     color: rgb(77, 77, 79);
     font-size: 16px;
     position: absolute;
-    top: 125%;
+    top: 127%;
     width: 100%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 
 .menu {
