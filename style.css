@@ -336,6 +336,82 @@ svg {
     font-size: 16px;
 }
 
+.booklist-features {
+    position: absolute;
+    left: 5%;
+    top: 110%;
+}
+
+.booklist-platform-label {
+    float: left;
+    font-size: 16px;
+    margin-right: 20px;
+    background: rgb(139, 185, 235, 0.5);
+    padding: 0px 5px;
+}
+
+.booklist-platform {
+    float: left;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(139, 185, 235);
+}
+
+.booklist-platform:hover {
+    color: rgb(255, 255, 255);
+}
+
+.booklist-features-github {
+    position: absolute;
+    left: 5%;
+    top: 125%;  
+}
+
+.booklist-github-label {
+    float: left;
+    font-size: 16px;
+    margin-right: 20px;
+    padding: 0px 5px;
+    background: rgb(139, 185, 235, 0.5);
+}
+
+.booklist-github-link {
+    float: left;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(139, 185, 235);
+}
+
+.booklist-link:hover {
+    color: rgb(255, 255, 255);
+}
+
+.booklist-tech-label {
+    position: absolute;
+    top: 140%;
+}
+
+.booklist-tech-list {
+    position: absolute;
+    top: 150%;
+}
+
+.booklist-img {
+    position: absolute;
+    width: 100%;
+    top: 190%;
+    left: 0%;
+}
+
+.footer-booklist {
+    color: rgb(77, 77, 79);
+    font-size: 16px;
+    position: absolute;
+    top: 150%;
+    width: 100%;
+    padding-bottom: 2%;
+}
+
 .dictionary {
     position: absolute;
     width: 250px;
