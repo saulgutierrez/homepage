@@ -21,10 +21,10 @@ a {
 .description {
     margin: 80px auto;
     background-color: rgb(49, 49, 52);
-    border-radius: 25px;
+    border-radius: 10px;
     padding: 20px;
-    min-width: 600px;
-    max-width: 600px;
+    min-width: 550px;
+    max-width: 550px;
 }
 
 .name {
@@ -675,7 +675,7 @@ svg {
     color: rgb(139, 185, 235);
 }
 
-.todo-link:hover {
+.todo-github-link:hover {
     color: rgb(255, 255, 255);
 }
 
