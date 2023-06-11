@@ -18,16 +18,14 @@ a {
     color: white;
 }
 
-/* Fix it */
 .description {
-    width: 50%;
     margin: 80px auto;
     background-color: rgb(49, 49, 52);
     border-radius: 25px;
     padding: 20px;
+    min-width: 600px;
+    max-width: 600px;
 }
-
-
 
 .name {
     position: absolute;
@@ -477,35 +475,34 @@ svg {
 
 .top-content-clock {
     position: absolute;
-    left: 30%;
-    top: 15%;
+    left: 0px;
+    top: 100px;
+    right: 420px;
+    bottom: 0px;
 }
 
 .analog-clock-title {
-    float: left;
     font-weight: 700;
     font-size: 18px;
     margin-right: 20px;
 }
 
 .analog-clock-year {
-    float: left;
+    position: absolute;
+    left: 140px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
     font-weight: 400;
     font-size: 18px;
     color: rgb(139, 185, 235);
 }
 
-.analog-clock-container {
-    position: absolute;
-    left: 30%;
-    top: 21%;
-    font-size: 16px;
-    right: 30%;
-    text-align: justify;
-}
-
 .analog-clock-full-description {
-    float: left;
+    width: 530px;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: justify;
 }
 
 .analog-clock-features {
@@ -640,9 +637,7 @@ svg {
 }
 
 .todo-features {
-    position: absolute;
-    left: 5%;
-    top: 120%;
+    position: relative;
 }
 
 .todo-platform-label {
