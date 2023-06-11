@@ -254,15 +254,6 @@ svg {
     margin-top: 60%;
 }
 
-.footer-todo {
-    color: rgb(77, 77, 79);
-    font-size: 16px;
-    position: absolute;
-    top: 127%;
-    width: 100%;
-    padding-bottom: 2%;
-}
-
 .menu {
     display: none;
 }
@@ -477,8 +468,8 @@ svg {
     position: absolute;
     left: 0px;
     top: 100px;
-    right: 420px;
-    bottom: 0px;
+    right: 0px;
+    bottom: 2000px;
 }
 
 .analog-clock-title {
@@ -637,7 +628,10 @@ svg {
 }
 
 .todo-features {
-    position: relative;
+    width: 530px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: justify;
 }
 
 .todo-platform-label {
@@ -660,17 +654,18 @@ svg {
 }
 
 .todo-features-github {
-    position: absolute;
-    left: 5%;
-    top: 145%;  
+    width: 530px;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: justify;
 }
 
 .todo-github-label {
     float: left;
     font-size: 16px;
     margin-right: 20px;
-    padding: 0px 5px;
     background: rgb(139, 185, 235, 0.5);
+    padding: 0px 5px;
 }
 
 .todo-github-link {
@@ -685,20 +680,32 @@ svg {
 }
 
 .todo-tech-label {
-    position: absolute;
-    top: 180%;
+    width: 530px;
+    margin: 0 auto;
+    margin-top: 130px;
+    text-align: justify;
 }
 
 .todo-tech-list {
-    position: absolute;
-    top: 210%;
+    width: 530px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: justify;
 }
 
 .todo-img {
-    position: absolute;
-    width: 100%;
-    top: 280%;
-    left: 0%;
+    width: 530px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.footer-todo {
+    color: rgb(77, 77, 79);
+    font-size: 16px;
+    width: 530px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .music-player {
