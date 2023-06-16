@@ -29,7 +29,7 @@ a {
 
 .name {
     position: absolute;
-    top: 200px;
+    top: 170px;
     left: -80px;
     right: 300px;
     bottom: 10px;
@@ -39,7 +39,7 @@ a {
 
 .name2 {
     position: absolute;
-    top: 240px;
+    top: 210px;
     left: 20px;
     right: 300px;
     bottom: 10px;
@@ -49,7 +49,7 @@ a {
 
 .perfil-description {
     position: absolute;
-    top: 300px;
+    top: 270px;
     left: 50px;
     right: 30px;
     bottom: 10px;
@@ -67,7 +67,7 @@ a {
 
 .bio {
     position: absolute;
-    top: 350px;
+    top: 320px;
     left: -180px;
     right: 300px;
     bottom: 10px;
@@ -78,7 +78,7 @@ a {
 
 .bio-year-1 {
     position: absolute;
-    top: 390px;
+    top: 360px;
     left: -170px;
     right: 300px;
     bottom: 10px;
@@ -88,7 +88,7 @@ a {
 
 .bio-description-1 {
     position: absolute;
-    top: 390px;
+    top: 360px;
     left: 350px;
     right: 50px;
     bottom: 10px;
@@ -97,7 +97,7 @@ a {
 
 .bio-year-2 {
     position: absolute;
-    top: 420px;
+    top: 390px;
     left: -170px;
     right: 300px;
     bottom: 10px;
@@ -107,7 +107,7 @@ a {
 
 .bio-description-2 {
     position: absolute;
-    top: 420px;
+    top: 390px;
     left: 150px;
     right: 50px;
     bottom: 10px;
@@ -117,7 +117,7 @@ a {
 .hobbies {
     text-decoration: underline;
     position: absolute;
-    top: 470px;
+    top: 440px;
     left: -140px;
     right: 300px;
     bottom: 10px;
@@ -127,7 +127,7 @@ a {
 
 .hobbies-list {
     position: absolute;
-    top: 500px;
+    top: 470px;
     left: -40px;
     right: 0px;
     bottom: 10px;
@@ -136,7 +136,7 @@ a {
 
 .social {
     position: absolute;
-    top: 550px;
+    top: 520px;
     left: -400px;
     right: 0px;
     bottom: 10px;
@@ -203,7 +203,7 @@ svg {
 
 .label-todo {
     position: absolute;
-    top: 860px;
+    top: 830px;
     bottom: 0px;
     left: -420px;
     right: 0px;
@@ -213,7 +213,7 @@ svg {
 
 .label-booklist {
     position: absolute;
-    top: 860px;
+    top: 830px;
     left: 250px;
     right: 100px;
     bottom: 10px;
