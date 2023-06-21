@@ -780,7 +780,7 @@ svg {
 @media only screen and (max-width: 575px) {
     .name {
         position: absolute;
-        top: 350;
+        top: 200px;
         left: 0;
         right: 0;
         bottom: 0;
@@ -789,16 +789,25 @@ svg {
 
     .name2 {
         position: absolute;
-        top: 350;
+        top: 240px;
         left: 0;
         right: 0;
         bottom: 0;
         margin: auto;
     }
 
+    .perfil-description {
+        position: absolute;
+        top: 300px;
+        left: 30px;
+        right: 30px;
+        bottom: 0;
+        margin: auto;
+    }
+
     .img {
         position: absolute;
-        margin-top: 120px;
+        margin-top: 160px;
         margin-left: -40px;
         border-radius: 50%;
         height: 100px;
@@ -807,7 +816,7 @@ svg {
 
     .bio {
         position: absolute;
-        top: 460px;
+        top: 550px;
         left: -300px;
         right: 0px;
         bottom: 10px;
@@ -818,7 +827,7 @@ svg {
 
     .bio-year-1 {
         position: absolute;
-        top: 500px;
+        top: 590px;
         left: -290px;
         right: 0px;
         bottom: 0px;
@@ -831,13 +840,13 @@ svg {
         background-color: rgb(49, 49, 52);
         border-radius: 10px;
         padding: 20px;
-        min-width: 300px;
-        max-width: 300px;
+        min-width: 370px;
+        max-width: 370px;
     }
 
     .bio-description-1 {
         position: absolute;
-        top: 500px;
+        top: 590px;
         left: 40px;
         right: 0px;
         bottom: 0px;
@@ -846,7 +855,7 @@ svg {
 
     .bio-year-2 {
         position: absolute;
-        top: 530px;
+        top: 620px;
         left:  -290px;
         right: 0px;
         bottom: 0px;
@@ -856,7 +865,7 @@ svg {
 
     .bio-description-2 {
         position: absolute;
-        top: 530px;
+        top: 620px;
         left: 110px;
         right: 100px;
         bottom: 0px;
