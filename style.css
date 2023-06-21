@@ -887,8 +887,8 @@ svg {
     .hobbies-list {
         position: absolute;
         top: 770px;
-        left: 45px;
-        right: 45px;
+        left: 25px;
+        right: 25px;
         bottom: 0px;
         text-align: justify;
         font-size: 20px;
@@ -896,7 +896,7 @@ svg {
 
     .social {
         position: absolute;
-        top: 850px;
+        top: 840px;
         left: -225px;
         right: 0px;
         bottom: 0px;
@@ -907,7 +907,7 @@ svg {
 
     .github-link {
         position: relative;
-        margin-top: 600px;
+        margin-top: 560px;
         color: rgb(139, 185, 235);
         background-color: rgb(32, 32, 35);
         font-weight: 700;
