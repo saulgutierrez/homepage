@@ -927,7 +927,7 @@ svg {
     .todo {
         position: absolute;
         width: 300px;
-        margin-top: 810px;
+        margin-top: 750px;
         border-radius: 5px;
         opacity: 0.5;
 
@@ -936,7 +936,7 @@ svg {
     .booklist {
         position: absolute;
         width: 300px;
-        margin-top: 1040px;
+        margin-top: 980px;
         margin-left: -160px;
         border-radius: 5px;
         opacity: 0.5;
@@ -945,7 +945,7 @@ svg {
 
     .label-todo {
         position: absolute;
-        top: 1240px;
+        top: 1180px;
         bottom: 0px;
         left: 0px;
         right: 0px;
@@ -956,7 +956,7 @@ svg {
 
     .label-booklist {
         position: absolute;
-        top: 1460px;
+        top: 1400px;
         left: 0px;
         right: 0px;
         bottom: 0px;
@@ -967,14 +967,14 @@ svg {
     .btn-projects {
         font-weight: 700;
         position: absolute;
-        margin-top: 1290px;
+        margin-top: 1210px;
         margin-left: -70px;
         margin-right: 80px;
     }
 
     .footer {
         position: absolute;
-        margin-top: 610px;
+        margin-top: 570px;
     }
 
 }
