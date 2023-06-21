@@ -831,8 +831,8 @@ svg {
         background-color: rgb(49, 49, 52);
         border-radius: 10px;
         padding: 20px;
-        min-width: 400px;
-        max-width: 400px;
+        min-width: 300px;
+        max-width: 300px;
     }
 
     .bio-description-1 {
@@ -966,7 +966,7 @@ svg {
 
     .footer {
         position: absolute;
-        margin-top: 620px;
+        margin-top: 2000px;
     }
 
 }
