@@ -776,7 +776,6 @@ svg {
     font-weight: 400;
 }
 
-/* Movil M (max-width: 375px) */
 @media only screen and (max-width: 575px) {
     .name {
         position: absolute;
@@ -866,11 +865,13 @@ svg {
     .bio-description-2 {
         position: absolute;
         top: 620px;
-        left: 80px;
+        left: 85px;
         right: 60px;
         bottom: 0px;
-        text-align: justify;
         font-size: 20px;
+        max-width: 235px;
+        min-width: 235px;
+        text-align: justify;
     }
 
     .hobbies {
