@@ -780,7 +780,7 @@ svg {
 @media only screen and (max-width: 575px) {
     .name {
         position: absolute;
-        top: 300;
+        top: 350;
         left: 0;
         right: 0;
         bottom: 0;
@@ -789,7 +789,7 @@ svg {
 
     .name2 {
         position: absolute;
-        top: 300;
+        top: 350;
         left: 0;
         right: 0;
         bottom: 0;
