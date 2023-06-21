@@ -18,6 +18,7 @@ a {
     color: white;
 }
 
+/* INDEX PAGE */
 .description {
     margin: 80px auto;
     background-color: rgb(49, 49, 52);
@@ -236,6 +237,7 @@ svg {
     padding-bottom: 20px;
 }
 
+/* WORKS PAGE */
 .footer-works {
     color: rgb(77, 77, 79);
     font-size: 16px;
@@ -775,8 +777,10 @@ svg {
     font-size: 16px;
     font-weight: 400;
 }
+
 /* X-Small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 575px) {
+    /* INDEX PAGE */
     .name {
         position: absolute;
         top: 200px;
@@ -976,11 +980,252 @@ svg {
         position: absolute;
         margin-top: 570px;
     }
+    /* WORKS PAGE */
+    .works {
+        position: absolute;
+        left: 0px;
+    }
+
+    .todo-works {
+        border-radius: 5px;
+        opacity: 0.5;
+        position: absolute;
+        margin-left: -120px;
+    }
+
+    .booklist-works {
+        position: absolute;
+        width: 250px;
+        margin-top: 880px;
+        margin-left: 10px;
+        border-radius: 5px;
+        opacity: 0.5;
+        margin-top: 150px;
+        display: none;
+    }
+
+    .label-todo-works {
+        position: absolute;
+        left: 0px;
+        font-weight: 700;
+    }
+
+    .label-booklist-works {
+        position: absolute;
+        top: 290px;
+        right: 0px;
+        bottom: 0px;
+        left: 130px;
+        font-weight: 700;
+        display: none
+    }
+
+    .todo-description {
+        position: absolute;
+        left: 60px;
+    }
+
+    .booklist-description {
+        position: absolute;
+        top: 320px;
+        right: 50px;
+        bottom: 50px;
+        left: 280px;
+        font-weight: 400;
+        font-size: 16px;
+        display: none;
+    }
+
+    .dictionary {
+        position: absolute;
+        width: 250px;
+        margin-top: 380px;
+        margin-left: -265px;
+        border-radius: 5px;
+        opacity: 0.5;
+        display: none;
+    }
+
+    .analog-clock {
+        position: absolute;
+        width: 250px;
+        margin-top: 380px;
+        margin-left: 10px;
+        border-radius: 5px;
+        opacity: 0.5;
+        display: none;
+    }
+
+    .label-dictionary {
+        position: absolute;
+        top: 520px;
+        right: 0px;
+        bottom: 50px;
+        left: -390px;
+        font-weight: 700;
+        display: none;
+    }
+
+    .dictionary-description {
+        position: absolute;
+        top: 550px;
+        right: 0px;
+        bottom: 50px;
+        left: -315px;
+        font-size: 16px;
+        display: none;
+    }
+
+    .label-analog-clock {
+        position: absolute;
+        top: 520px;
+        right: 50px;
+        bottom: 50px;
+        left: 200px;
+        font-weight: 700;
+        display: none;
+    }
+
+    .analog-clock-description {
+        position: absolute;
+        top: 550px;
+        right: 50px;
+        bottom: 50px;
+        left: 260px;
+        font-size: 16px;
+        font-weight: 400;
+        display: none;
+    }
+
+    .coffe {
+        position: absolute;
+        width: 250px;
+        margin-top: 620px;
+        margin-left: -265px;
+        border-radius: 5px;
+        opacity: 0.5;
+        display: none;
+    }
+
+    .bienes-raices {
+        position: absolute;
+        width: 250px;
+        margin-top: 620px;
+        margin-left: 10px;
+        border-radius: 5px;
+        opacity: 0.5;
+        display: none;
+    }
+
+    .label-coffe {
+        position: absolute;
+        top: 760px;
+        right: 0px;
+        bottom: 50px;
+        left: -480px;
+        font-weight: 700;
+        display: none;
+    }
+
+    .coffe-description {
+        position: absolute;
+        top: 790px;
+        left: -315px;
+        right: 0px;
+        bottom: 0px;
+        font-size: 16px;
+        font-weight: 400;
+        display: none;
+    }
+
+    .label-bienes-raices {
+        position: absolute;
+        top: 760px;
+        right: 0px;
+        bottom: 50px;
+        left: 145px;
+        font-weight: 700;
+        display: none;
+    }
+
+    .bienes-raices-description {
+        position: absolute;
+        top: 790px;
+        left: 250px;
+        right: 0px;
+        bottom: 0px;
+        font-size: 16px;
+        font-weight: 400;
+        display: none;
+    }
+
+    .music-player {
+        position: absolute;
+        width: 250px;
+        margin-top: 880px;
+        margin-left: -265px;
+        border-radius: 5px;
+        opacity: 0.5;
+        display: none;
+    }
+
+    .richiest-people {
+        position: absolute;
+        width: 250px;
+        margin-top: 880px;
+        margin-left: 10px;
+        border-radius: 5px;
+        opacity: 0.5;
+        display: none;
+    }
+
+    .label-music-player {
+        position: absolute;
+        top: 1020px;
+        right: 0px;
+        bottom: 50px;
+        left: -410px;
+        font-weight: 700;
+        display: none;
+    }
+
+    .music-player-description {
+        position: absolute;
+        top: 1050px;
+        left: -345px;
+        right: 0px;
+        bottom: 0px;
+        font-size: 16px;
+        font-weight: 400;
+        display: none;
+    }
+
+    .label-drag-drop {
+        position: absolute;
+        top: 1020px;
+        right: 0px;
+        bottom: 50px;
+        left: 185px;
+        font-weight: 700;
+        display: none;
+    }
+
+    .drag-drop-description {
+        position: absolute;
+        top: 1050px;
+        left: 205px;
+        right: 0px;
+        bottom: 0px;
+        font-size: 16px;
+        font-weight: 400;
+        display: none;
+    }
 
 }
 
 /* Tablets y phablets */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* INDEX PAGE */
     .name {
         position: absolute;
         top: 300;
@@ -1150,10 +1395,12 @@ svg {
         margin-top: 750px;
         margin-left: 40px;
     }
+    /* WORKS PAGE */
 }
 
 /* Large tablets */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* INDEX PAGE */
     .name {
         position: absolute;
         top: 300;
@@ -1323,4 +1570,6 @@ svg {
         margin-top: 750px;
         margin-left: 40px;
     }
+
+    /* WORKS PAGE */
 }
