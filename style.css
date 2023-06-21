@@ -776,7 +776,7 @@ svg {
     font-weight: 400;
 }
 
-/* Telefonos */
+/* Movil M (max-width: 375px) */
 @media only screen and (max-width: 575px) {
     .name {
         position: absolute;
@@ -867,7 +867,7 @@ svg {
         position: absolute;
         top: 620px;
         left: 80px;
-        right: 0px;
+        right: 60px;
         bottom: 0px;
         text-align: justify;
         font-size: 20px;
