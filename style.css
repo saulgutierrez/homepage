@@ -242,7 +242,7 @@ svg {
     color: rgb(77, 77, 79);
     font-size: 16px;
     position: relative;
-    top: 1100px;
+    top: 1330px;
     left: 0px;
     padding-bottom: 20px;
 }
@@ -778,6 +778,70 @@ svg {
     font-weight: 400;
 }
 
+.digital-clock {
+    position: absolute;
+    width: 250px;
+    margin-top: 1100px;
+    margin-left: -265px;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+.digital-clock:hover {
+    opacity: 1;
+}
+
+.label-digital-clock {
+    position: absolute;
+    top: 1240px;
+    right: 0px;
+    bottom: 50px;
+    left: -410px;
+    font-weight: 700;
+}
+
+.digital-clock-description {
+    position: absolute;
+    top: 1270px;
+    left: -345px;
+    right: 0px;
+    bottom: 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.crypto {
+    position: absolute;
+    width: 250px;
+    margin-top: 1100px;
+    margin-left: 10px;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+.crypto:hover {
+    opacity: 1;
+}
+
+.label-crypto {
+        position: absolute;
+        top: 1240px;
+        right: 0px;
+        bottom: 0px;
+        left: 85px;
+        font-weight: 700;
+}
+
+.crypto-description {
+    position: absolute;
+    top: 1270px;
+    right: 0px;
+    bottom: 0px;
+    left: 240px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
 /* X-Small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 575px) {
     /* INDEX PAGE */
@@ -983,7 +1047,7 @@ svg {
 
     .footer-works-responsive {
         position: absolute;
-        margin-top: 1000px;
+        margin-top: 1250px;
     }
 
     /* WORKS PAGE */
@@ -1154,6 +1218,48 @@ svg {
         position: absolute;
         margin-left: -120px;
         margin-top: 1870px;
+    }
+
+    .digital-clock {
+        border-radius: 5px;
+        opacity: 0.5;
+        position: absolute;
+        margin-left: -120px;
+        margin-top: 2100px;
+    }
+
+    .label-digital-clock {
+        position: absolute;
+        left: 0px;
+        font-weight: 700;
+        margin-top: 990px;
+    }
+
+    .digital-clock-description {
+        position: absolute;
+        left: 0px;
+        margin-top: 995px;
+    }
+
+    .crypto {
+        border-radius: 5px;
+        opacity: 0.5;
+        position: absolute;
+        margin-left: -120px;
+        margin-top: 2330px;
+    }
+
+    .label-crypto {
+        position: absolute;
+        left: 0px;
+        font-weight: 700;
+        margin-top: 1210px;
+    }
+
+    .crypto-description {
+        position: absolute;
+        left: 0px;
+        margin-top: 1215px;
     }
 
     .label-music-player {
