@@ -210,6 +210,7 @@ svg {
     right: 0px;
     font-size: 20px;
     font-weight: 700;
+    height: 0px;
 }
 
 .label-booklist {
@@ -220,6 +221,7 @@ svg {
     bottom: 10px;
     font-size: 20px;
     font-weight: 700;
+    height: 0px;
 }
 
 .btn-projects {
@@ -309,6 +311,7 @@ svg {
     bottom: 0px;
     left: 130px;
     font-weight: 700;
+    height: 0px;
 }
 
 .todo-description {
@@ -329,6 +332,7 @@ svg {
     left: 280px;
     font-weight: 400;
     font-size: 16px;
+    height: 0px;
 }
 
 .booklist-features {
@@ -458,6 +462,7 @@ svg {
     bottom: 50px;
     left: 200px;
     font-weight: 700;
+    height: 0px;
 }
 
 .analog-clock-description {
@@ -468,6 +473,7 @@ svg {
     left: 260px;
     font-size: 16px;
     font-weight: 400;
+    height: 0px;
 }
 
 .top-content-clock {
