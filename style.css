@@ -976,8 +976,8 @@ svg {
         background-color: rgb(49, 49, 52);
         border-radius: 10px;
         padding: 20px;
-        min-width: 300px;
-        max-width: 300px;
+        min-width: calc(60% - 50px);
+        max-width: calc(95% - 50px);
     }
 
     .bio-description-1 {
