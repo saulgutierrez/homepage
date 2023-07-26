@@ -920,7 +920,8 @@ svg {
         left: 0;
         right: 0;
         bottom: 0;
-        margin: auto;
+        margin-left: 35px;
+        text-align: left;
     }
 
     .name2 {
@@ -929,7 +930,8 @@ svg {
         left: 0;
         right: 0;
         bottom: 0;
-        margin: auto;
+        margin-left: 35px;
+        text-align: left;
     }
 
     .perfil-description {
@@ -938,7 +940,8 @@ svg {
         left: 30px;
         right: 30px;
         bottom: 0;
-        margin: auto;
+        margin-left: 5px;
+        text-align: left;
     }
 
     .img {
@@ -953,22 +956,26 @@ svg {
     .bio {
         position: absolute;
         top: 550px;
-        left: -250px;
+        left: 0px;
         right: 0px;
         bottom: 10px;
         font-size: 20px;
         font-weight: 700;
         text-decoration: underline;
+        margin-left: 35px;
+        text-align: left;
     }
 
     .bio-year-1 {
         position: absolute;
         top: 590px;
-        left: -250px;
+        left: 0px;
         right: 0px;
         bottom: 0px;
         font-size: 20px;
         font-weight: 700;
+        margin-left: 35px;
+        text-align: left;
     }
 
     .description {
@@ -983,62 +990,72 @@ svg {
     .bio-description-1 {
         position: absolute;
         top: 590px;
-        left: 90px;
+        left: 0px;
         right: 0px;
         bottom: 0px;
         font-size: 20px;
+        margin-left: 95px;
+        text-align: left;
     }
 
     .bio-year-2 {
         position: absolute;
         top: 650px;
-        left:  -250px;
+        left:  0px;
         right: 0px;
         bottom: 0px;
         font-size: 20px;
         font-weight: 700;
+        margin-left: 35px;
+        text-align: left;
     }
 
     .bio-description-2 {
         position: absolute;
         top: 650px;
-        left: 110px;
+        left: 0px;
         right: 0px;
         bottom: 0px;
         font-size: 20px;
-
+        margin-left: 95px;
+        text-align: left;
     }
 
     .hobbies {
         text-decoration: underline;
         position: absolute;
         top: 730px;
-        left: -220px;
+        left: 0px;
         right: 0px;
         bottom: 0px;
         font-size: 20px;
         font-weight: 700;
+        margin-left: 35px;
+        text-align: left;
     }
 
     .hobbies-list {
         position: absolute;
         top: 770px;
-        left: 25px;
+        left: 0px;
         right: 25px;
         bottom: 0px;
-        text-align: justify;
         font-size: 20px;
+        margin-left: 35px;
+        text-align: justify;
     }
 
     .social {
         position: absolute;
         top: 840px;
-        left: -190px;
+        left: 0px;
         right: 0px;
         bottom: 0px;
         font-size: 20px;
         font-weight: 700;
         text-decoration: underline;
+        margin-left: 35px;
+        text-align: left;
     }
 
     .github-link {
