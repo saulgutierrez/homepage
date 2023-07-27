@@ -60,9 +60,9 @@ a {
 .img {
     position: absolute;
     margin-top: -70px;
-    margin-left: 65px;
+    margin-left: 165px;
     border-radius: 50%;
-    height: 100px;
+    height: 110px;
     border: rgb(255, 255, 255) 3px solid;
 }
 
@@ -179,8 +179,8 @@ svg {
 .todo {
     position: absolute;
     width: 250px;
-    margin-top: 470px;
-    margin-left: -165px;
+    margin-top: 20px;
+    margin-left: -275px;
     border-radius: 5px;
     opacity: 0.5;
 }
@@ -192,8 +192,8 @@ svg {
 .booklist {
     position: absolute;
     width: 250px;
-    margin-top: 470px;
-    margin-left: 135px;
+    margin-top: 20px;
+    margin-left: 25px;
     border-radius: 5px;
     opacity: 0.5;
 }
@@ -204,7 +204,7 @@ svg {
 
 .label-todo {
     position: absolute;
-    top: 830px;
+    top: 820px;
     bottom: 0px;
     left: -455px;
     right: 0px;
@@ -215,7 +215,7 @@ svg {
 
 .label-booklist {
     position: absolute;
-    top: 830px;
+    top: 820px;
     left: 260px;
     right: 100px;
     bottom: 10px;
@@ -227,8 +227,8 @@ svg {
 .btn-projects {
     font-weight: 700;
     position: absolute;
-    margin-top: 650px;
-    margin-left: 40px;
+    margin-top: 220px;
+    margin-left: -66px;
 }
 
 .footer {
@@ -1079,21 +1079,36 @@ svg {
     }
 
     .todo {
-        position: absolute;
-        width: 300px;
-        margin-top: 750px;
-        border-radius: 5px;
-        opacity: 0.5;
-
+        display: none;
     }
 
     .booklist {
-        position: absolute;
-        width: 300px;
-        margin-top: 980px;
-        margin-left: -160px;
+        display: none;
+    }
+    
+    .content-todo {
+        margin: 20px auto;
         border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 50px);
+        height: 170px;
         opacity: 0.5;
+        background: url(main-view-todo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+    }
+
+    .content-booklist {
+        margin: 50px auto;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 50px);
+        height: 170px;
+        opacity: 0.5;
+        background: url(main-view-my-book-list.png);
+        background-size: contain;
+        background-repeat: no-repeat;
 
     }
 
@@ -1121,14 +1136,14 @@ svg {
     .btn-projects {
         font-weight: 700;
         position: absolute;
-        margin-top: 1210px;
-        margin-left: -70px;
-        margin-right: 80px;
+        margin-top: 0px;
+        margin-left: -66px;
+        margin-right: 0px;
     }
 
     .footer-index-responsive {
         position: absolute;
-        margin-top: 570px;
+        margin-top: 60px;
     }
 
     .footer-works-responsive {
@@ -1459,38 +1474,53 @@ svg {
 /* Tablets y phablets */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     /* INDEX PAGE */
-    .name {
+    .content-index {
         position: absolute;
-        top: 300;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        margin: auto;
+        left: 0px;
+        top: 0px;
+        right: 0px;
+        bottom: 2000px;
+    }
+
+    .name {
+        margin-right: 0px;
     }
 
     .name2 {
         position: absolute;
-        top: 300;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        margin: auto;
+        left: 0px;
+        top: 170px;
+        right: 30px;
+        bottom: 0px;
     }
 
-    .img {
-        position: absolute;
-        margin-top: 95px;
-        margin-left: -140px;
+    .content-image {
+        margin: 150px auto;
         border-radius: 50%;
-        height: 100px;
         border: rgb(255, 255, 255) 3px solid;
+        padding: 13px;
+        width: 120px;
+        height: 120px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background: url(Me.jpeg);
+        background-size: cover;
+    }
+
+    img.img {
+        display: none;
+    }
+
+    .perfil-description {
+        top: 220px;
+        height: 0px;
     }
 
     .bio {
         position: absolute;
         top: 420px;
-        left: -180px;
-        right: 300px;
+        left: 0px;
+        right: 510px;
         bottom: 10px;
         font-size: 20px;
         font-weight: 700;
@@ -1500,8 +1530,8 @@ svg {
     .bio-year-1 {
         position: absolute;
         top: 460px;
-        left: -170px;
-        right: 300px;
+        left: 0px;
+        right: 500px;
         bottom: 10px;
         font-size: 20px;
         font-weight: 700;
@@ -1510,17 +1540,17 @@ svg {
     .bio-description-1 {
         position: absolute;
         top: 460px;
-        left: 350px;
-        right: 50px;
-        bottom: 10px;
+        left: 0px;
+        right: 150px;
+        bottom: 0px;
         font-size: 20px;
     }
 
     .bio-year-2 {
         position: absolute;
         top: 490px;
-        left: -170px;
-        right: 300px;
+        left: 0px;
+        right: 500px;
         bottom: 10px;
         font-size: 20px;
         font-weight: 700;
@@ -1529,9 +1559,9 @@ svg {
     .bio-description-2 {
         position: absolute;
         top: 490px;
-        left: 150px;
-        right: 50px;
-        bottom: 10px;
+        left: 45px;
+        right: 0px;
+        bottom: 0px;
         font-size: 20px;
     }
 
@@ -1539,8 +1569,8 @@ svg {
         text-decoration: underline;
         position: absolute;
         top: 540px;
-        left: -140px;
-        right: 300px;
+        left: 0px;
+        right: 465px;
         bottom: 10px;
         font-size: 20px;
         font-weight: 700;
@@ -1549,7 +1579,7 @@ svg {
     .hobbies-list {
         position: absolute;
         top: 570px;
-        left: -40px;
+        left: -65px;
         right: 0px;
         bottom: 10px;
         font-size: 20px;
@@ -1558,37 +1588,40 @@ svg {
     .social {
         position: absolute;
         top: 620px;
-        left: -400px;
-        right: 0px;
+        left: 0px;
+        right: 440px;
         bottom: 10px;
         font-size: 20px;
         font-weight: 700;
         text-decoration: underline;
     }
 
+    .content-social {
+        height: 0px;
+    }
+
     .github-link {
         position: relative;
-        margin-top: 380px;
+        margin-top: 40px;
         color: rgb(139, 185, 235);
         background-color: rgb(32, 32, 35);
         font-weight: 700;
-        margin-left: -360px;
     }
 
     .linkedin-link {
         position: relative;
-        margin-top: 500px;
+        margin-top: 170px;
         color: rgb(140, 186, 235);
         background-color: rgb(32, 32, 35);
         font-weight: 700;
-        margin-left: -175px;
+        margin-right: -15px;
     }
 
     .todo {
         position: absolute;
         width: 250px;
-        margin-top: 570px;
-        margin-left: -160px;
+        margin-top: 230px;
+        margin-left: -270px;
         border-radius: 5px;
         opacity: 0.5;
     }
@@ -1596,8 +1629,8 @@ svg {
     .booklist {
         position: absolute;
         width: 250px;
-        margin-top: 570px;
-        margin-left: 115px;
+        margin-top: 230px;
+        margin-left: 0px;
         border-radius: 5px;
         opacity: 0.5;
     }
@@ -1606,7 +1639,7 @@ svg {
         position: absolute;
         top: 930px;
         bottom: 0px;
-        left: -420px;
+        left: -445px;
         right: 0px;
         font-size: 20px;
         font-weight: 700;
@@ -1615,8 +1648,8 @@ svg {
     .label-booklist {
         position: absolute;
         top: 930px;
-        left: 250px;
-        right: 100px;
+        left: 110px;
+        right: 0px;
         bottom: 10px;
         font-size: 20px;
         font-weight: 700;
@@ -1625,184 +1658,17 @@ svg {
     .btn-projects {
         font-weight: 700;
         position: absolute;
-        margin-top: 750px;
-        margin-left: 40px;
+        margin-top: 420px;
+        margin-left: -66px;
     }
-    /* WORKS PAGE */
+
+    .footer {
+        color: rgb(77, 77, 79);
+        font-size: 16px;
+        width: 90%;
+        margin: auto;
+        margin-top: 470px;
+        margin-bottom: 10px;
+    }
 }
 
-/* Large tablets */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    /* INDEX PAGE */
-    .name {
-        position: absolute;
-        top: 300;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        margin: auto;
-    }
-
-    .name2 {
-        position: absolute;
-        top: 300;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        margin: auto;
-    }
-
-    .img {
-        position: absolute;
-        margin-top: 95px;
-        margin-left: -140px;
-        border-radius: 50%;
-        height: 100px;
-        border: rgb(255, 255, 255) 3px solid;
-    }
-
-    .bio {
-        position: absolute;
-        top: 420px;
-        left: -180px;
-        right: 300px;
-        bottom: 10px;
-        font-size: 20px;
-        font-weight: 700;
-        text-decoration: underline;
-    }
-
-    .bio-year-1 {
-        position: absolute;
-        top: 460px;
-        left: -170px;
-        right: 300px;
-        bottom: 10px;
-        font-size: 20px;
-        font-weight: 700;
-    }
-
-    .bio-description-1 {
-        position: absolute;
-        top: 460px;
-        left: 350px;
-        right: 50px;
-        bottom: 10px;
-        font-size: 20px;
-    }
-
-    .bio-year-2 {
-        position: absolute;
-        top: 490px;
-        left: -170px;
-        right: 300px;
-        bottom: 10px;
-        font-size: 20px;
-        font-weight: 700;
-    }
-
-    .bio-description-2 {
-        position: absolute;
-        top: 490px;
-        left: 150px;
-        right: 50px;
-        bottom: 10px;
-        font-size: 20px;
-    }
-
-    .hobbies {
-        text-decoration: underline;
-        position: absolute;
-        top: 540px;
-        left: -140px;
-        right: 300px;
-        bottom: 10px;
-        font-size: 20px;
-        font-weight: 700;
-    }
-
-    .hobbies-list {
-        position: absolute;
-        top: 570px;
-        left: -40px;
-        right: 0px;
-        bottom: 10px;
-        font-size: 20px;
-    }
-
-    .social {
-        position: absolute;
-        top: 620px;
-        left: -400px;
-        right: 0px;
-        bottom: 10px;
-        font-size: 20px;
-        font-weight: 700;
-        text-decoration: underline;
-    }
-
-    .github-link {
-        position: relative;
-        margin-top: 380px;
-        color: rgb(139, 185, 235);
-        background-color: rgb(32, 32, 35);
-        font-weight: 700;
-        margin-left: -360px;
-    }
-
-    .linkedin-link {
-        position: relative;
-        margin-top: 500px;
-        color: rgb(140, 186, 235);
-        background-color: rgb(32, 32, 35);
-        font-weight: 700;
-        margin-left: -175px;
-    }
-
-    .todo {
-        position: absolute;
-        width: 250px;
-        margin-top: 570px;
-        margin-left: -160px;
-        border-radius: 5px;
-        opacity: 0.5;
-    }
-
-    .booklist {
-        position: absolute;
-        width: 250px;
-        margin-top: 570px;
-        margin-left: 115px;
-        border-radius: 5px;
-        opacity: 0.5;
-    }
-
-    .label-todo {
-        position: absolute;
-        top: 930px;
-        bottom: 0px;
-        left: -420px;
-        right: 0px;
-        font-size: 20px;
-        font-weight: 700;
-    }
-
-    .label-booklist {
-        position: absolute;
-        top: 930px;
-        left: 250px;
-        right: 100px;
-        bottom: 10px;
-        font-size: 20px;
-        font-weight: 700;
-    }
-
-    .btn-projects {
-        font-weight: 700;
-        position: absolute;
-        margin-top: 750px;
-        margin-left: 40px;
-    }
-
-    /* WORKS PAGE */
-}
