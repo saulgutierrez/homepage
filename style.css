@@ -1075,7 +1075,6 @@ svg {
         background-color: rgb(32, 32, 35);
         font-weight: 700;
         margin-left: -175px;
-
     }
 
     .todo {
@@ -1087,63 +1086,63 @@ svg {
     }
     
     .content-todo {
-        margin: 20px auto;
+        margin: 30px auto;
         border-radius: 5px;
         padding: 13px;
         width: calc(100% - 50px);
         height: 170px;
-        opacity: 0.5;
         background: url(main-view-todo.png);
         background-size: contain;
         background-repeat: no-repeat;
-        
+        position: relative;
     }
 
     .content-booklist {
-        margin: 50px auto;
+        margin: 30px auto;
         border-radius: 5px;
         padding: 13px;
         width: calc(100% - 50px);
         height: 170px;
-        opacity: 0.5;
         background: url(main-view-my-book-list.png);
         background-size: contain;
         background-repeat: no-repeat;
-
+        position: relative;
+        margin-top: 10%;
     }
 
     .label-todo {
         position: absolute;
-        top: 1180px;
-        bottom: 0px;
+        margin-top: 33%;
+        top: 30%;
         left: 0px;
-        right: 0px;
         font-size: 20px;
         font-weight: 700;
-
+        height: 0px;
+        color: white;
     }
 
     .label-booklist {
         position: absolute;
-        top: 1400px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
+        margin-top: 33%;
+        top: 30%;
+        left: 30%;
         font-size: 20px;
         font-weight: 700;
+        height: 0px;
+        color: white;
     }
 
     .btn-projects {
         font-weight: 700;
         position: absolute;
-        margin-top: 0px;
+        margin-top: 4%;
         margin-left: -66px;
         margin-right: 0px;
     }
 
     .footer-index-responsive {
         position: absolute;
-        margin-top: 60px;
+        margin-top: 70px;
     }
 
     .footer-works-responsive {
