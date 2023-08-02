@@ -911,6 +911,36 @@ svg {
     font-weight: 400;
     font-size: 16px;
 }
+
+/* BLOG PAGE */
+.posts {
+    position: absolute;
+    top: 100px;
+    right: 400px;
+    bottom: 50px;
+    left: 0px;
+    font-weight: 700;
+}
+
+.label-first-post {
+    position: absolute;
+    top: 280px;
+    right: 400px;
+    bottom: 0px;
+    left: 0px;
+    font-weight: 700;
+}
+
+.first-post-description {
+    position: absolute;
+    top: 310px;
+    right: 340px;
+    bottom: 0px;
+    left: 0px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
 /* X-Small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 575px) {
     /* INDEX PAGE */
@@ -1466,6 +1496,36 @@ svg {
 
     .todo-features-github {
         width: 90%;
+    }
+
+    /* BLOG PAGE */
+    .posts {
+        position: absolute;
+        top: 80px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        font-weight: 700;
+        height: 30px;
+    }
+
+    .label-first-post {
+        position: absolute;
+        top: 280px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        font-weight: 700;
+    }
+    
+    .first-post-description {
+        position: absolute;
+        top: 310px;
+        right: 0px;
+        bottom: 50px;
+        left: 0px;
+        font-weight: 400;
+        font-size: 16px;
     }
 
 }
