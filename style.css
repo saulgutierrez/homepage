@@ -941,6 +941,15 @@ svg {
     font-size: 16px;
 }
 
+.footer-blog {
+    color: rgb(77, 77, 79);
+    font-size: 16px;
+    position: relative;
+    top: 350px;
+    left: 0px;
+    padding-bottom: 20px;
+}
+
 /* X-Small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 575px) {
     /* INDEX PAGE */
@@ -1526,6 +1535,11 @@ svg {
         left: 0px;
         font-weight: 400;
         font-size: 16px;
+    }
+
+    .footer-blog-responsive {
+        position: absolute;
+        margin-top: 0px;
     }
 
 }
