@@ -244,7 +244,7 @@ svg {
     color: rgb(77, 77, 79);
     font-size: 16px;
     position: relative;
-    top: 1470px;
+    top: 1690px;
     left: 0px;
     padding-bottom: 20px;
 }
@@ -912,6 +912,70 @@ svg {
     font-size: 16px;
 }
 
+.marketing {
+    position: absolute;
+    width: 250px;
+    margin-top: 1470px;
+    margin-left: -265px;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+.marketing:hover {
+    opacity: 1;
+}
+
+.label-marketing {
+    position: absolute;
+    top: 1600px;
+    right: 448px;
+    bottom: 0px;
+    left: 0px;
+    font-weight: 700;
+}
+
+.marketing-description {
+    position: absolute;
+    top: 1630px;
+    left: -305px;
+    right: 0px;
+    bottom: 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bookstore {
+    position: absolute;
+    width: 250px;
+    margin-top: 1470px;
+    margin-left: 10px;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+.bookstore:hover {
+    opacity: 1;
+}
+
+.label-bookstore {
+    position: absolute;
+    top: 1600px;
+    right: 0px;
+    bottom: 0px;
+    left: 115px;
+    font-weight: 700;
+}
+
+.bookstore-description {
+    position: absolute;
+    top: 1630px;
+    right: 0px;
+    bottom: 0px;
+    left: 260px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 /* BLOG PAGE */
 .posts {
     position: absolute;
@@ -1186,7 +1250,7 @@ svg {
 
     .footer-works-responsive {
         position: absolute;
-        margin-top: 1430px;
+        margin-top: 1680px;
     }
 
     /* WORKS PAGE */
@@ -1467,6 +1531,46 @@ svg {
         position: absolute;
         left: 0px;
         margin-top: 1435px;
+    }
+
+    .marketing {
+        border-radius: 5px;
+        opacity: 0.5;
+        position: absolute;
+        margin-left: -120px;
+        margin-top: 2910px;
+    }
+
+    .label-marketing {
+        right: 0px;
+        margin-top: 1435px;
+    }
+
+    .marketing-description {
+        position: absolute;
+        left: 0px;
+        margin-top: 1435px;
+    }
+
+    .bookstore {
+        border-radius: 5px;
+        opacity: 0.5;
+        position: absolute;
+        margin-left: -120px;
+        margin-top: 3140px;
+    }
+
+    .label-bookstore {
+        position: absolute;
+        left: 0px;
+        font-weight: 700;
+        margin-top: 1670px;
+    }
+
+    .bookstore-description {
+        position: absolute;
+        left: 0px;
+        margin-top: 1670px;
     }
 
     .analog-clock-full-description {
