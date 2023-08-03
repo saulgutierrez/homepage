@@ -56,3 +56,7 @@
 
 })();
 
+function showMenu() {
+    var menuItem = document.querySelector('.menu__nesting');
+    menuItem.classList.toggle('active');
+}

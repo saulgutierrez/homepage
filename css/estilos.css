@@ -178,11 +178,20 @@ body{
 
     .menu__nesting{
         display: grid;
-        position: unset;
+        position: relative;
         width: 100%;
         transform: translateY(0);
-        height: 0;
+        height: 0px;
         transition: height .3s;
+    }
+
+    .menu__nesting.active {
+        display: grid;
+        position: relative;
+        width: 100%;
+        transform: translateY(0);
+        transition: height .3s;
+        height: 200px;
     }
 
     .menu__link--inside{
