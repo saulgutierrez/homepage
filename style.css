@@ -51,18 +51,17 @@ a {
 .perfil-description {
     position: absolute;
     top: 270px;
-    left: -5px;
-    right: 30px;
-    bottom: 10px;
+    left: 0px;
+    right: 295px;
     font-size: 23px;
 }
 
 .img {
     position: absolute;
-    margin-top: -70px;
-    margin-left: 165px;
+    margin-top: -40px;
+    margin-left: 155px;
     border-radius: 50%;
-    height: 110px;
+    height: 120px;
     border: rgb(255, 255, 255) 3px solid;
 }
 
