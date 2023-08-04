@@ -73,6 +73,10 @@ body{
     margin-left: 3px;
 }
 
+ul .menu__nesting {
+    padding-left: 0px;
+}
+
 .menu__nesting{
     list-style: none;
     transition:clip-path .3s;
@@ -86,7 +90,7 @@ body{
 }
 
 .menu__link--inside{
-    padding: 30px 100px 30px 20px;
+    padding: 10px 20px;
 }
 
 .menu__link--inside:hover{
@@ -167,7 +171,7 @@ body{
 
     .menu__link{
         padding: 25px 0;
-        padding-left: 30px;
+        padding-left: 0px;
         height: auto;
     }
 

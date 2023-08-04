@@ -243,7 +243,7 @@ svg {
     color: rgb(77, 77, 79);
     font-size: 16px;
     position: relative;
-    top: 1690px;
+    top: 1030px;
     left: 0px;
     padding-bottom: 20px;
 }
@@ -587,55 +587,44 @@ svg {
     opacity: 1;
 }
 
-.bienes-raices {
-    position: absolute;
-    width: 250px;
-    margin-top: 590px;
-    margin-left: 10px;
-    border-radius: 5px;
-    opacity: 0.5;
-}
-
-.bienes-raices:hover {
-    opacity: 1;
-}
-
 .label-coffe {
     position: absolute;
-    top: 720px;
+    top: 280px;
     right: 0px;
-    bottom: 50px;
-    left: -480px;
+    bottom: 0px;
+    left: -475px;
     font-weight: 700;
 }
 
 .coffe-description {
     position: absolute;
-    top: 750px;
-    left: -315px;
+    top: 310px;
     right: 0px;
     bottom: 0px;
-    font-size: 16px;
+    left: -315px;
     font-weight: 400;
+    font-size: 16px;
 }
 
 .label-bienes-raices {
     position: absolute;
-    top: 720px;
+    top: 280px;
     right: 0px;
-    bottom: 50px;
-    left: 145px;
+    bottom: 0px;
+    left: 140px;
     font-weight: 700;
+    height: 0px;
 }
 
 .bienes-raices-description {
     position: absolute;
-    top: 750px;
-    left: 215px;
+    top: 310px;
     right: 0px;
     bottom: 0px;
-    font-size: 16px;
+    left: 215px;
     font-weight: 400;
+    font-size: 16px;
+    height: 0px;
 }
 
 .todo-features {
@@ -722,7 +711,7 @@ svg {
 .music-player {
     position: absolute;
     width: 250px;
-    margin-top: 810px;
+    margin-top: 590px;
     margin-left: -265px;
     border-radius: 5px;
     opacity: 0.5;
@@ -735,7 +724,7 @@ svg {
 .richiest-people {
     position: absolute;
     width: 250px;
-    margin-top: 810px;
+    margin-top: 590px;
     margin-left: 10px;
     border-radius: 5px;
     opacity: 0.5;
@@ -747,18 +736,18 @@ svg {
 
 .label-music-player {
     position: absolute;
-    top: 940px;
-    right: 0px;
-    bottom: 50px;
-    left: -410px;
+    top: 720px;
+    right: 410px;
+    bottom: 0px;
+    left: 0px;
     font-weight: 700;
 }
 
 .music-player-description {
     position: absolute;
-    top: 970px;
-    left: -345px;
-    right: 0px;
+    top: 750px;
+    left: 0px;
+    right: 347px;
     bottom: 0px;
     font-size: 16px;
     font-weight: 400;
@@ -766,16 +755,16 @@ svg {
 
 .label-drag-drop {
     position: absolute;
-    top: 940px;
+    top: 720px;
     right: 0px;
-    bottom: 50px;
+    bottom: 0px;
     left: 185px;
     font-weight: 700;
 }
 
 .drag-drop-description {
     position: absolute;
-    top: 970px;
+    top: 750px;
     left: 205px;
     right: 0px;
     bottom: 0px;
@@ -786,7 +775,7 @@ svg {
 .digital-clock {
     position: absolute;
     width: 250px;
-    margin-top: 1030px;
+    margin-top: 810px;
     margin-left: -265px;
     border-radius: 5px;
     opacity: 0.5;
@@ -798,7 +787,7 @@ svg {
 
 .label-digital-clock {
     position: absolute;
-    top: 1160px;
+    top: 940px;
     right: 0px;
     bottom: 50px;
     left: -410px;
@@ -807,7 +796,7 @@ svg {
 
 .digital-clock-description {
     position: absolute;
-    top: 1190px;
+    top: 970px;
     left: -345px;
     right: 0px;
     bottom: 0px;
@@ -830,20 +819,19 @@ svg {
 
 .label-crypto {
     position: absolute;
-    top: 1160px;
+    top: 500px;
     right: 0px;
-    bottom: 0px;
-    left: 85px;
+    bottom: 50px;
+    left: -465px;
     font-weight: 700;
 }
 
 .crypto-description {
     position: absolute;
-    top: 1190px;
+    top: 530px;
     right: 0px;
     bottom: 0px;
-    left: 240px;
-    font-weight: 400;
+    left: -314px;
     font-size: 16px;
 }
 
@@ -862,21 +850,23 @@ svg {
 
 .label-travel {
     position: absolute;
-    top: 1380px;
+    top: 500px;
     right: 0px;
-    bottom: 50px;
-    left: -470px;
+    bottom: 0px;
+    left: 80px;
     font-weight: 700;
+    height: 0px;
 }
 
 .travel-description {
     position: absolute;
-    top: 1410px;
-    left: -330px;
+    top: 530px;
     right: 0px;
     bottom: 0px;
+    left: 220px;
     font-size: 16px;
     font-weight: 400;
+    height: 0px;
 }
 
 .photo {
@@ -894,21 +884,21 @@ svg {
 
 .label-photo {
     position: absolute;
-    top: 1380px;
+    top: 720px;
     right: 0px;
     bottom: 0px;
-    left: 110px;
+    left: -440px;
     font-weight: 700;
 }
 
 .photo-description {
     position: absolute;
-    top: 1410px;
-    right: 0px;
+    top: 750px;
+    left: 0px;
+    right: 307px;
     bottom: 0px;
-    left: 245px;
-    font-weight: 400;
     font-size: 16px;
+    font-weight: 400;
 }
 
 .marketing {
@@ -926,17 +916,17 @@ svg {
 
 .label-marketing {
     position: absolute;
-    top: 1600px;
-    right: 448px;
+    top: 720px;
+    right: 0px;
     bottom: 0px;
-    left: 0px;
+    left: 101px;
     font-weight: 700;
 }
 
 .marketing-description {
     position: absolute;
-    top: 1630px;
-    left: -305px;
+    top: 750px;
+    left: 240px;
     right: 0px;
     bottom: 0px;
     font-size: 16px;
@@ -958,19 +948,19 @@ svg {
 
 .label-bookstore {
     position: absolute;
-    top: 1600px;
+    top: 940px;
     right: 0px;
     bottom: 0px;
-    left: 115px;
+    left: -435px;
     font-weight: 700;
 }
 
 .bookstore-description {
     position: absolute;
-    top: 1630px;
+    top: 970px;
+    left: -290px;
     right: 0px;
     bottom: 0px;
-    left: 260px;
     font-size: 16px;
     font-weight: 400;
 }
