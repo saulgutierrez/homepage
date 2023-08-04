@@ -301,6 +301,7 @@ svg {
     bottom: 0px;
     left: -435px;
     font-weight: 700;
+    font-size: 20px;
 }
 
 .label-booklist-works {
@@ -311,6 +312,7 @@ svg {
     left: 130px;
     font-weight: 700;
     height: 0px;
+    font-size: 20px;
 }
 
 .todo-description {
@@ -326,9 +328,9 @@ svg {
 .booklist-description {
     position: absolute;
     top: 310px;
-    right: 50px;
-    bottom: 50px;
-    left: 200px;
+    right: 0px;
+    bottom: 0px;
+    left: 145px;
     font-weight: 400;
     font-size: 16px;
     height: 0px;
@@ -443,6 +445,7 @@ svg {
     bottom: 50px;
     left: -385px;
     font-weight: 700;
+    font-size: 20px;
 }
 
 .dictionary-description {
@@ -452,6 +455,7 @@ svg {
     bottom: 50px;
     left: -290px;
     font-size: 16px;
+    font-weight: 400;
 }
 
 .label-analog-clock {
@@ -462,6 +466,7 @@ svg {
     left: 200px;
     font-weight: 700;
     height: 0px;
+    font-size: 20px;
 }
 
 .analog-clock-description {
@@ -741,6 +746,7 @@ svg {
     bottom: 0px;
     left: 0px;
     font-weight: 700;
+    font-size: 20px;
 }
 
 .music-player-description {
@@ -760,6 +766,7 @@ svg {
     bottom: 0px;
     left: 185px;
     font-weight: 700;
+    font-size: 20px;
 }
 
 .drag-drop-description {
@@ -792,6 +799,7 @@ svg {
     bottom: 50px;
     left: -410px;
     font-weight: 700;
+    font-size: 20px;
 }
 
 .digital-clock-description {
@@ -1181,7 +1189,7 @@ svg {
         margin: 30px auto;
         border-radius: 5px;
         padding: 13px;
-        width: calc(100% - 50px);
+        width: calc(100% - 80px);
         height: 170px;
         background: url(main-view-todo.png);
         background-size: contain;
@@ -1193,7 +1201,7 @@ svg {
         margin: 30px auto;
         border-radius: 5px;
         padding: 13px;
-        width: calc(100% - 50px);
+        width: calc(100% - 80px);
         height: 170px;
         background: url(main-view-my-book-list.png);
         background-size: contain;
@@ -1238,8 +1246,8 @@ svg {
     }
 
     .footer-works-responsive {
-        position: absolute;
-        margin-top: 1680px;
+        position: relative;
+        top: 0px;
     }
 
     /* WORKS PAGE */
@@ -1254,94 +1262,278 @@ svg {
     }
 
     .todo-works {
-        border-radius: 5px;
-        opacity: 0.5;
-        position: absolute;
-        margin-left: -120px;
+        display: none;
     }
 
-    .booklist-works {
+    .content-todo-works {
+        margin: 150px auto;
+        margin-bottom: 20%;
         border-radius: 5px;
-        opacity: 0.5;
-        position: absolute;
-        margin-left: -120px;
-        margin-top: 380px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 170px;
+        background: url(main-view-todo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
     }
 
     .label-todo-works {
         position: absolute;
+        margin-top: 33%;
+        top: 33%;
         left: 0px;
+        font-size: 20px;
         font-weight: 700;
-        height: 30px;
-    }
-
-    .label-booklist-works {
-        position: absolute;
-        left: 0px;
-        font-weight: 700;
-        margin-top: 230px;
+        height: 0px;
+        color: white;
+        width: 100%;
     }
 
     .todo-description {
         position: absolute;
-        left: 60px;
-        height: 60px;
+        margin-top: 43%;
+        top: 33%;
+        left: 0px;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .booklist-works {
+        display: none;
+    }
+
+    .content-booklist-works {
+        margin: auto;
+        margin-bottom: 20%;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 170px;
+        background: url(main-view-my-book-list.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .label-booklist-works {
+        position: absolute;
+        margin-top: 33%;
+        top: 33%;
+        left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        height: 0px;
+        color: white;
+        width: 100%;
     }
 
     .booklist-description {
         position: absolute;
-        left: 60px;
-        margin-top: 230px;
+        margin-top: 43%;
+        top: 33%;
+        left: 0px;
+        height: 0px;
+        color: white;
+        width: 100%;
     }
 
     .dictionary {
-        border-radius: 5px;
-        opacity: 0.5;
-        position: absolute;
-        margin-left: -120px;
-        margin-top: 610px;
+        display: none;
     }
 
-    .analog-clock {
+    .content-dictionary {
+        margin: auto;
+        margin-bottom: 20%;
         border-radius: 5px;
-        opacity: 0.5;
-        position: absolute;
-        margin-left: -120px;
-        margin-top: 840px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 170px;
+        background: url(main-view-dictionary.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
     }
 
     .label-dictionary {
         position: absolute;
+        margin-top: 33%;
+        top: 33%;
         left: 0px;
+        font-size: 20px;
         font-weight: 700;
-        margin-top: 240px;
+        height: 0px;
+        color: white;
+        width: 100%;
     }
 
     .dictionary-description {
         position: absolute;
+        margin-top: 43%;
+        top: 33%;
         left: 0px;
-        margin-top: 240px;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .analog-clock {
+        display: none;
+    }
+
+    .content-analog-clock {
+        margin: auto;
+        margin-bottom: 20%;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 170px;
+        background: url(main-view-analog-clock.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
     }
 
     .label-analog-clock {
         position: absolute;
-        top: 970px;
-        right: 0px;
-        bottom: 0px;
+        margin-top: 33%;
+        top: 33%;
         left: 0px;
+        font-size: 20px;
         font-weight: 700;
+        height: 0px;
+        color: white;
+        width: 100%;
     }
 
     .analog-clock-description {
         position: absolute;
-        top: 1000px;
-        right: 0px;
-        bottom: 50px;
+        margin-top: 43%;
+        top: 33%;
         left: 0px;
-        font-weight: 400;
-        font-size: 16px;
+        height: 0px;
+        color: white;
+        width: 100%;
     }
 
+    .music-player {
+        display: none;
+    }
+
+    .content-music-player {
+        margin: auto;
+        margin-bottom: 20%;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 170px;
+        background: url(main-view-music-player.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .label-music-player {
+        position: absolute;
+        margin-top: 33%;
+        top: 33%;
+        left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .music-player-description {
+        position: absolute;
+        margin-top: 43%;
+        top: 33%;
+        left: 0px;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .richiest-people {
+        display: none;
+    }
+
+    .content-richiest-people {
+        margin: auto;
+        margin-bottom: 20%;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 170px;
+        background: url(main-view-richiest-people.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .label-drag-drop {
+        position: absolute;
+        margin-top: 33%;
+        top: 33%;
+        left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .drag-drop-description {
+        position: absolute;
+        margin-top: 43%;
+        top: 33%;
+        left: 0px;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .digital-clock {
+        display: none;
+    }
+
+    .content-digital-clock {
+        margin: auto;
+        margin-bottom: 20%;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 170px;
+        background: url(main-view-digital-clock.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .label-digital-clock {
+        position: absolute;
+        margin-top: 33%;
+        top: 33%;
+        left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .digital-clock-description {
+        position: absolute;
+        margin-top: 43%;
+        top: 33%;
+        left: 0px;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+    
     .coffe {
         border-radius: 5px;
         opacity: 0.5;
@@ -1396,43 +1588,6 @@ svg {
         font-size: 16px;
     }
 
-    .music-player {
-        border-radius: 5px;
-        opacity: 0.5;
-        position: absolute;
-        margin-left: -120px;
-        margin-top: 1530px;
-    }
-
-    .richiest-people {
-        border-radius: 5px;
-        opacity: 0.5;
-        position: absolute;
-        margin-left: -120px;
-        margin-top: 1760px;
-    }
-
-    .digital-clock {
-        border-radius: 5px;
-        opacity: 0.5;
-        position: absolute;
-        margin-left: -120px;
-        margin-top: 1990px;
-    }
-
-    .label-digital-clock {
-        position: absolute;
-        left: 0px;
-        font-weight: 700;
-        margin-top: 960px;
-    }
-
-    .digital-clock-description {
-        position: absolute;
-        left: 0px;
-        margin-top: 960px;
-    }
-
     .crypto {
         border-radius: 5px;
         opacity: 0.5;
@@ -1452,32 +1607,6 @@ svg {
         position: absolute;
         left: 0px;
         margin-top: 1195px;
-    }
-
-    .label-music-player {
-        position: absolute;
-        left: 0px;
-        font-weight: 700;
-        margin-top: 720px;
-    }
-
-    .music-player-description {
-        position: absolute;
-        left: 0px;
-        margin-top: 720px;
-    }
-
-    .label-drag-drop {
-        position: absolute;
-        left: 0px;
-        font-weight: 700;
-        margin-top: 950px;
-    }
-
-    .drag-drop-description {
-        position: absolute;
-        left: 0px;
-        margin-top: 950px;
     }
 
     .travel {
@@ -1796,7 +1925,6 @@ svg {
         position: absolute;
         width: 250px;
         margin-top: 230px;
-        margin-left: 0px;
         border-radius: 5px;
         opacity: 0.5;
     }
@@ -1811,10 +1939,14 @@ svg {
         font-weight: 700;
     }
 
+    .label-todo-works {
+        font-size: 20px;
+    }
+
     .label-booklist {
         position: absolute;
         top: 930px;
-        left: 110px;
+        left: 160px;
         right: 0px;
         bottom: 10px;
         font-size: 20px;
