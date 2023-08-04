@@ -302,6 +302,7 @@ svg {
     left: -435px;
     font-weight: 700;
     font-size: 20px;
+    height: 0px;
 }
 
 .label-booklist-works {
@@ -323,6 +324,7 @@ svg {
     left: -245px;
     font-weight: 400;
     font-size: 16px;
+    height: 0px;
 }
 
 .booklist-description {
@@ -446,6 +448,7 @@ svg {
     left: -385px;
     font-weight: 700;
     font-size: 20px;
+    height: 0px;
 }
 
 .dictionary-description {
@@ -456,6 +459,7 @@ svg {
     left: -290px;
     font-size: 16px;
     font-weight: 400;
+    height: 0px;
 }
 
 .label-analog-clock {
@@ -1176,7 +1180,7 @@ svg {
         font-weight: 700;
         margin-left: -175px;
     }
-
+    
     .todo {
         display: none;
     }
