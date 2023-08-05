@@ -583,19 +583,6 @@ svg {
     margin-top: 65%;
 }
 
-.coffe {
-    position: absolute;
-    width: 250px;
-    margin-top: 590px;
-    margin-left: -265px;
-    border-radius: 5px;
-    opacity: 0.5;
-}
-
-.coffe:hover {
-    opacity: 1;
-}
-
 .label-coffe {
     position: absolute;
     top: 280px;
@@ -603,6 +590,8 @@ svg {
     bottom: 0px;
     left: -475px;
     font-weight: 700;
+    font-size: 20px;
+    height: 0px;
 }
 
 .coffe-description {
@@ -613,6 +602,7 @@ svg {
     left: -315px;
     font-weight: 400;
     font-size: 16px;
+    height: 0px;
 }
 
 .label-bienes-raices {
@@ -623,6 +613,7 @@ svg {
     left: 140px;
     font-weight: 700;
     height: 0px;
+    font-size: 20px;
 }
 
 .bienes-raices-description {
@@ -800,7 +791,7 @@ svg {
     position: absolute;
     top: 940px;
     right: 0px;
-    bottom: 50px;
+    bottom: 0px;
     left: -410px;
     font-weight: 700;
     font-size: 20px;
@@ -833,9 +824,11 @@ svg {
     position: absolute;
     top: 500px;
     right: 0px;
-    bottom: 50px;
+    bottom: 0px;
     left: -465px;
     font-weight: 700;
+    font-size: 20px;
+    height: 0px;
 }
 
 .crypto-description {
@@ -845,6 +838,8 @@ svg {
     bottom: 0px;
     left: -314px;
     font-size: 16px;
+    font-weight: 400;
+    height: 0px;
 }
 
 .travel {
@@ -868,6 +863,7 @@ svg {
     left: 80px;
     font-weight: 700;
     height: 0px;
+    font-size: 20px;
 }
 
 .travel-description {
@@ -901,13 +897,14 @@ svg {
     bottom: 0px;
     left: -440px;
     font-weight: 700;
+    font-size: 20px;
 }
 
 .photo-description {
     position: absolute;
     top: 750px;
     left: 0px;
-    right: 307px;
+    right: 320px;
     bottom: 0px;
     font-size: 16px;
     font-weight: 400;
@@ -933,6 +930,7 @@ svg {
     bottom: 0px;
     left: 101px;
     font-weight: 700;
+    font-size: 20px;
 }
 
 .marketing-description {
@@ -965,6 +963,7 @@ svg {
     bottom: 0px;
     left: -435px;
     font-weight: 700;
+    font-size: 20px;
 }
 
 .bookstore-description {
@@ -977,7 +976,7 @@ svg {
     font-weight: 400;
 }
 
-/* BLOG PAGE */
+/******************** BLOG PAGE ***********************/
 .posts {
     position: absolute;
     top: 100px;
@@ -994,6 +993,7 @@ svg {
     bottom: 0px;
     left: 0px;
     font-weight: 700;
+    font-size: 20px;
 }
 
 .first-post-description {
@@ -1014,10 +1014,11 @@ svg {
     left: 0px;
     padding-bottom: 20px;
 }
+/******* END BLOG PAGE *********/
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 575px) {
-    /* INDEX PAGE */
+    /****************** INDEX PAGE ***************/
     .name {
         position: absolute;
         top: 200px;
@@ -1254,7 +1255,7 @@ svg {
         top: 0px;
     }
 
-    /* WORKS PAGE */
+    /******************* WORKS PAGE ********************************/
     .works {
         position: absolute;
         top: 80px;
@@ -1265,6 +1266,8 @@ svg {
         height: 30px;
     }
 
+    /***************************** WEB APPS ******************************/
+    /*TODO*/
     .todo-works {
         display: none;
     }
@@ -1304,6 +1307,7 @@ svg {
         width: 100%;
     }
 
+    /*BOOKLIST*/
     .booklist-works {
         display: none;
     }
@@ -1343,6 +1347,7 @@ svg {
         width: 100%;
     }
 
+    /*DICTIONARY*/
     .dictionary {
         display: none;
     }
@@ -1382,6 +1387,7 @@ svg {
         width: 100%;
     }
 
+    /*ANALOG CLOCK*/
     .analog-clock {
         display: none;
     }
@@ -1421,6 +1427,7 @@ svg {
         width: 100%;
     }
 
+    /*MUSIC PLAYER*/
     .music-player {
         display: none;
     }
@@ -1460,6 +1467,7 @@ svg {
         width: 100%;
     }
 
+    /*RICHIEST PEOPLE*/
     .richiest-people {
         display: none;
     }
@@ -1499,6 +1507,8 @@ svg {
         width: 100%;
     }
 
+
+    /*DIGITAL CLOCK*/
     .digital-clock {
         display: none;
     }
@@ -1537,163 +1547,6 @@ svg {
         color: white;
         width: 100%;
     }
-    
-    .coffe {
-        border-radius: 5px;
-        opacity: 0.5;
-        position: absolute;
-        margin-left: -120px;
-        margin-top: 1070px;
-    }
-
-    .bienes-raices {
-        border-radius: 5px;
-        opacity: 0.5;
-        position: absolute;
-        margin-left: -120px;
-        margin-top: 1300px;
-    }
-
-    .label-coffe {
-        position: absolute;
-        top: 1200px;
-        right: 0px;
-        bottom: 0px;
-        left: 0px;
-        font-weight: 700;
-    }
-
-    .coffe-description {
-        position: absolute;
-        top: 1230px;
-        right: 0px;
-        bottom: 50px;
-        left: 0px;
-        font-weight: 400;
-        font-size: 16px;
-    }
-
-    .label-bienes-raices {
-        position: absolute;
-        top: 1430px;
-        right: 0px;
-        bottom: 0px;
-        left: 0px;
-        font-weight: 700;
-    }
-
-    .bienes-raices-description {
-        position: absolute;
-        top: 1460px;
-        right: 0px;
-        bottom: 50px;
-        left: 0px;
-        font-weight: 400;
-        font-size: 16px;
-    }
-
-    .crypto {
-        border-radius: 5px;
-        opacity: 0.5;
-        position: absolute;
-        margin-left: -120px;
-        margin-top: 2220px;
-    }
-
-    .label-crypto {
-        position: absolute;
-        left: 0px;
-        font-weight: 700;
-        margin-top: 1190px;
-    }
-
-    .crypto-description {
-        position: absolute;
-        left: 0px;
-        margin-top: 1195px;
-    }
-
-    .travel {
-        border-radius: 5px;
-        opacity: 0.5;
-        position: absolute;
-        margin-left: -120px;
-        margin-top: 2450px;
-    }
-
-    .label-travel {
-        position: absolute;
-        left: 0px;
-        font-weight: 700;
-        margin-top: 1200px;
-    }
-
-    .travel-description {
-        position: absolute;
-        left: 0px;
-        margin-top: 1205px;
-    }
-
-    .photo {
-        border-radius: 5px;
-        opacity: 0.5;
-        position: absolute;
-        margin-left: -120px;
-        margin-top: 2680px;
-    }
-
-    .label-photo {
-        position: absolute;
-        left: 0px;
-        font-weight: 700;
-        margin-top: 1430px;
-    }
-
-    .photo-description {
-        position: absolute;
-        left: 0px;
-        margin-top: 1435px;
-    }
-
-    .marketing {
-        border-radius: 5px;
-        opacity: 0.5;
-        position: absolute;
-        margin-left: -120px;
-        margin-top: 2910px;
-    }
-
-    .label-marketing {
-        right: 0px;
-        margin-top: 1435px;
-    }
-
-    .marketing-description {
-        position: absolute;
-        left: 0px;
-        margin-top: 1435px;
-    }
-
-    .bookstore {
-        border-radius: 5px;
-        opacity: 0.5;
-        position: absolute;
-        margin-left: -120px;
-        margin-top: 3140px;
-    }
-
-    .label-bookstore {
-        position: absolute;
-        left: 0px;
-        font-weight: 700;
-        margin-top: 1670px;
-    }
-
-    .bookstore-description {
-        position: absolute;
-        left: 0px;
-        margin-top: 1670px;
-    }
 
     .analog-clock-full-description {
         width: 90%;
@@ -1701,7 +1554,268 @@ svg {
         margin-top: 150px;
         text-align: justify;
     }
+    /**************** END WEB APPS **********************/
 
+    /****************** UI DESIGN *********************/
+    /* COFFE */
+    .coffe {
+        display: none;
+    }
+
+    .content-coffe {
+        margin: 150px auto;
+        margin-bottom: 20%;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 170px;
+        background: url(main-view-coffe.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .label-coffe {
+        position: absolute;
+        margin-top: 33%;
+        top: 33%;
+        left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .coffe-description {
+        position: absolute;
+        margin-top: 43%;
+        top: 33%;
+        left: 0px;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    /* BIENES RAICES */
+    .content-bienes-raices {
+        margin: auto;
+        margin-bottom: 20%;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 170px;
+        background: url(main-view-bienes-raices.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .label-bienes-raices {
+        position: absolute;
+        margin-top: 33%;
+        top: 33%;
+        left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .bienes-raices-description {
+        position: absolute;
+        margin-top: 43%;
+        top: 33%;
+        left: 0px;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    /* CRYPTO */
+    .content-crypto {
+        margin: auto;
+        margin-bottom: 20%;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 170px;
+        background: url(main-view-crypto.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .label-crypto {
+        position: absolute;
+        margin-top: 33%;
+        top: 33%;
+        left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .crypto-description {
+        position: absolute;
+        margin-top: 43%;
+        top: 33%;
+        left: 0px;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    /* TRAVEL */
+    .content-travel {
+        margin: auto;
+        margin-bottom: 20%;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 170px;
+        background: url(main-view-travel.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .label-travel {
+        position: absolute;
+        margin-top: 33%;
+        top: 33%;
+        left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .travel-description {
+        position: absolute;
+        margin-top: 43%;
+        top: 33%;
+        left: 0px;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    /* PHOTO */
+    .content-photo {
+        margin: auto;
+        margin-bottom: 20%;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 170px;
+        background: url(main-view-photo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .label-photo {
+        position: absolute;
+        margin-top: 33%;
+        top: 33%;
+        left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .photo-description {
+        position: absolute;
+        margin-top: 43%;
+        top: 33%;
+        left: 0px;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    /* MARKETING */
+    .content-marketing {
+        margin: auto;
+        margin-bottom: 20%;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 170px;
+        background: url(main-view-marketing.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .label-marketing {
+        position: absolute;
+        margin-top: 33%;
+        top: 33%;
+        left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .marketing-description {
+        position: absolute;
+        margin-top: 43%;
+        top: 33%;
+        left: 0px;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    /* BOOKSTORE */
+    .content-bookstore {
+        margin: auto;
+        margin-bottom: 20%;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 170px;
+        background: url(main-view-bookstore.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .label-bookstore {
+        position: absolute;
+        margin-top: 33%;
+        top: 33%;
+        left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .bookstore-description {
+        position: absolute;
+        margin-top: 43%;
+        top: 33%;
+        left: 0px;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    /****************** END UI DESIGN *********************/
+
+    /************* PROJECT DETAILS PAGE ******************/
     .todo-img {
         width: 90%;
         margin: 0 auto;
@@ -1733,41 +1847,52 @@ svg {
         width: 90%;
     }
 
-    /* BLOG PAGE */
+    /************* END PROJECT DETAILS ******************/
+
+    /************ BLOG PAGE ****************/
     .posts {
-        position: absolute;
-        top: 80px;
-        right: 0px;
-        bottom: 0px;
-        left: 0px;
-        font-weight: 700;
-        height: 30px;
+        width: 100%;
+    }
+    .content-first-post {
+        margin: 150px auto;
+        margin-bottom: 20%;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 170px;
+        background: url(blog-photo-1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
     }
 
     .label-first-post {
         position: absolute;
-        top: 280px;
-        right: 0px;
-        bottom: 0px;
+        margin-top: 33%;
+        top: 33%;
         left: 0px;
+        font-size: 20px;
         font-weight: 700;
+        height: 0px;
+        color: white;
+        width: 100%;
     }
-    
+
     .first-post-description {
         position: absolute;
-        top: 310px;
-        right: 0px;
-        bottom: 50px;
+        margin-top: 43%;
+        top: 33%;
         left: 0px;
-        font-weight: 400;
-        font-size: 16px;
+        height: 0px;
+        color: white;
+        width: 100%;
     }
 
     .footer-blog-responsive {
-        position: absolute;
-        margin-top: 0px;
+        position: relative;
+        top: 0px;
     }
-
+    /************* END BLOG PAGE ********************/
 }
 
 /* Tablets y phablets */
@@ -1973,4 +2098,3 @@ svg {
         margin-bottom: 10px;
     }
 }
-
