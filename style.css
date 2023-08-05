@@ -994,6 +994,7 @@ svg {
     left: 0px;
     font-weight: 700;
     font-size: 20px;
+    height: 0px;
 }
 
 .first-post-description {
@@ -1004,6 +1005,7 @@ svg {
     left: 0px;
     font-weight: 400;
     font-size: 16px;
+    height: 0px;
 }
 
 .footer-blog {
