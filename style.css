@@ -742,6 +742,7 @@ svg {
     left: 0px;
     font-weight: 700;
     font-size: 20px;
+    height: 0px;
 }
 
 .music-player-description {
@@ -752,6 +753,7 @@ svg {
     bottom: 0px;
     font-size: 16px;
     font-weight: 400;
+    height: 0px;
 }
 
 .label-drag-drop {
@@ -762,6 +764,7 @@ svg {
     left: 185px;
     font-weight: 700;
     font-size: 20px;
+    height: 0px;
 }
 
 .drag-drop-description {
@@ -772,6 +775,7 @@ svg {
     bottom: 0px;
     font-size: 16px;
     font-weight: 400;
+    height: 0px;
 }
 
 .digital-clock {
