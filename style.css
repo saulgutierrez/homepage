@@ -898,6 +898,7 @@ svg {
     left: -440px;
     font-weight: 700;
     font-size: 20px;
+    height: 0px;
 }
 
 .photo-description {
@@ -908,6 +909,7 @@ svg {
     bottom: 0px;
     font-size: 16px;
     font-weight: 400;
+    height: 0px;
 }
 
 .marketing {
@@ -931,6 +933,7 @@ svg {
     left: 101px;
     font-weight: 700;
     font-size: 20px;
+    height: 0px;
 }
 
 .marketing-description {
@@ -941,6 +944,7 @@ svg {
     bottom: 0px;
     font-size: 16px;
     font-weight: 400;
+    height: 0px;
 }
 
 .bookstore {
