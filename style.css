@@ -984,6 +984,41 @@ svg {
     font-weight: 400;
 }
 
+.fashion {
+    position: absolute;
+    width: 250px;
+    margin-top: 810px;
+    margin-left: 10px;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+.fashion:hover {
+    opacity: 1;
+}
+
+.label-fashion {
+    position: absolute;
+    top: 940px;
+    right: 0px;
+    bottom: 0px;
+    left: 90px;
+    font-weight: 700;
+    font-size: 20px;
+    height: 0px;
+}
+
+.fashion-description {
+    position: absolute;
+    top: 970px;
+    left: 220px;
+    right: 0px;
+    bottom: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    height: 0px;
+}
+
 /******************** BLOG PAGE ***********************/
 .posts {
     position: absolute;
@@ -1814,6 +1849,45 @@ svg {
     }
 
     .bookstore-description {
+        position: absolute;
+        margin-top: 43%;
+        top: 33%;
+        left: 0px;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .fashion {
+        display: none;
+    }
+
+    .content-fashion {
+        margin: auto;
+        margin-bottom: 20%;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 170px;
+        background: url(main-view-fashion.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .label-fashion {
+        position: absolute;
+        margin-top: 33%;
+        top: 33%;
+        left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .fashion-description {
         position: absolute;
         margin-top: 43%;
         top: 33%;
