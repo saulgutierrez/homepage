@@ -811,6 +811,28 @@ svg {
     font-weight: 400;
 }
 
+.label-quiz {
+    position: absolute;
+    top: 940px;
+    right: 0px;
+    bottom: 0px;
+    left: 63px;
+    font-weight: 700;
+    font-size: 20px;
+    height: 0px;
+}
+
+.quiz-description {
+    position: absolute;
+    top: 970px;
+    left: 177px;
+    right: 0px;
+    bottom: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    height: 0px;
+}
+
 .crypto {
     position: absolute;
     width: 250px;
