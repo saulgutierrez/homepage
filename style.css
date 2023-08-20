@@ -239,11 +239,29 @@ svg {
 }
 
 /* WORKS PAGE */
-.footer-works {
+.footer-works-ui {
     color: rgb(77, 77, 79);
     font-size: 16px;
     position: relative;
-    top: 1030px;
+    top: 1060px;
+    left: 0px;
+    padding-bottom: 20px;
+}
+
+.footer-works-ui-2 {
+    color: rgb(77, 77, 79);
+    font-size: 16px;
+    position: relative;
+    top: 400px;
+    left: 0px;
+    padding-bottom: 20px;
+}
+
+.footer-works-apps {
+    color: rgb(77, 77, 79);
+    font-size: 16px;
+    position: relative;
+    top: 1020px;
     left: 0px;
     padding-bottom: 20px;
 }
@@ -1041,6 +1059,42 @@ svg {
     height: 0px;
 }
 
+.label-real-estate {
+    position: absolute;
+    top: 280px;
+    right: 0px;
+    bottom: 0px;
+    left: -430px;
+    font-weight: 700;
+    font-size: 20px;
+    height: 0px;
+}
+
+.real-estate-description {
+    position: absolute;
+    top: 310px;
+    right: 0px;
+    bottom: 0px;
+    left: -305px;
+    font-weight: 400;
+    font-size: 16px;
+    height: 0px;
+}
+
+.btn-next-page {
+    font-weight: 700;
+    position: absolute;
+    margin-top: 1010px;
+    margin-left: -31px;
+}
+
+.btn-prev-page {
+    font-weight: 700;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: -31px;
+}
+
 /******************** BLOG PAGE ***********************/
 .posts {
     position: absolute;
@@ -1320,6 +1374,11 @@ svg {
     .footer-works-responsive {
         position: relative;
         top: 0px;
+    }
+
+    .footer-works-responsive-ui {
+        position: relative;
+        top: 50px;
     }
 
     /******************* WORKS PAGE ********************************/
@@ -1957,6 +2016,68 @@ svg {
         height: 0px;
         color: white;
         width: 100%;
+    }
+
+    /*********** NEXT-PAGE-BTN ***********/
+    .btn-next-page {
+        font-weight: 700;
+        position: absolute;
+        margin-top: 0px;
+        margin-left: -31px;
+    }
+
+    /* REAL ESTATE*/
+    .content-real-estate {
+        margin: 150px auto;
+        margin-bottom: 20%;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 170px;
+        background: url(main-view-real-estate.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .label-real-estate {
+        position: absolute;
+        margin-top: 33%;
+        top: 33%;
+        left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .real-estate-description {
+        position: absolute;
+        margin-top: 43%;
+        top: 33%;
+        left: 0px;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    /*************** PREV-PAGE-BTN ***********************/
+
+    .btn-prev-page {
+        font-weight: 700;
+        position: absolute;
+        margin-top: 0px;
+        margin-left: -31px;
+    }
+
+    .footer-works-ui-2 {
+        color: rgb(77, 77, 79);
+        font-size: 16px;
+        position: relative;
+        top: 50px;
+        left: 0px;
+        padding-bottom: 20px;
     }
 
     /****************** END UI DESIGN *********************/
