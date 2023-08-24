@@ -272,7 +272,7 @@ svg {
     color: rgb(77, 77, 79);
     font-size: 16px;
     position: relative;
-    top: 1020px;
+    top: 1060px;
     left: 0px;
     padding-bottom: 20px;
 }
@@ -862,6 +862,28 @@ svg {
     height: 0px;
 }
 
+.label-qr-code {
+    position: absolute;
+    top: 280px;
+    right: 0px;
+    bottom: 0px;
+    left: -350px;
+    font-weight: 700;
+    font-size: 20px;
+    height: 0px;
+}
+
+.qr-code-description {
+    position: absolute;
+    top: 310px;
+    right: 0px;
+    bottom: 0px;
+    left: -325px;
+    font-weight: 400;
+    font-size: 16px;
+    height: 0px;
+}
+
 .crypto {
     position: absolute;
     width: 250px;
@@ -1384,7 +1406,7 @@ svg {
 
     .footer-works-responsive {
         position: relative;
-        top: 0px;
+        top: 50px;
     }
 
     .footer-works-responsive-ui {
@@ -1731,6 +1753,42 @@ svg {
         margin-top: 150px;
         text-align: justify;
     }
+
+    .content-qr-code {
+        margin: 150px auto;
+        margin-bottom: 20%;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 170px;
+        background: url(main-view-qr-code.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .label-qr-code {
+        position: absolute;
+        margin-top: 33%;
+        top: 33%;
+        left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .qr-code-description {
+        position: absolute;
+        margin-top: 43%;
+        top: 33%;
+        left: 0px;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
     /**************** END WEB APPS **********************/
 
     /****************** UI DESIGN *********************/
