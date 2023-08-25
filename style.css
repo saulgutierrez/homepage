@@ -513,35 +513,27 @@ svg {
     height: 0px;
 }
 
-.top-content-clock {
-    position: absolute;
-    left: 0px;
-    top: 100px;
-    right: 0px;
-    bottom: 2000px;
-}
-
-.analog-clock-title {
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 0px;
+    width: 530px;
+    margin: 100px auto 50px auto;
+  }
+  
+  #contenedor > div {
+    width: 50%;
     font-weight: 700;
-    font-size: 18px;
-    margin-right: 20px;
-}
+  }
 
-.analog-clock-year {
-    position: absolute;
-    left: 140px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    font-weight: 400;
-    font-size: 18px;
+  #year {
     color: rgb(139, 185, 235);
-}
+  }
 
 .analog-clock-full-description {
     width: 530px;
     margin: 0 auto;
-    margin-top: 150px;
     text-align: justify;
 }
 
@@ -1750,7 +1742,7 @@ svg {
     .analog-clock-full-description {
         width: 90%;
         margin: 0 auto;
-        margin-top: 150px;
+        margin-top: 70px;
         text-align: justify;
     }
 
@@ -2152,6 +2144,15 @@ svg {
     /****************** END UI DESIGN *********************/
 
     /************* PROJECT DETAILS PAGE ******************/
+    #contenedor {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 0px;
+        width: 90%;
+        margin: 100px auto 0px auto;
+    }
+
     .todo-img {
         width: 90%;
         margin: 0 auto;
