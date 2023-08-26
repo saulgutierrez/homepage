@@ -152,7 +152,6 @@ ul .menu__nesting {
     }
     .menu__links{
         position: fixed;
-        max-width: 400px;
         width: 100%;
         top: 70px;
         bottom: 0;
