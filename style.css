@@ -1346,8 +1346,9 @@ svg {
 
     .github-link {
         position: relative;
+        left: 50%;
         top: 150px;
-        left: 110px;
+        margin-right: 0%;
         color: rgb(139, 185, 235);
         background-color: rgb(32, 32, 35);
         font-weight: 700;
@@ -1357,7 +1358,8 @@ svg {
     .linkedin-link {
         position: relative;
         top: 150px;
-        left: 110px;
+        left: 50%;
+        margin-right: 0%;
         color: rgb(140, 186, 235);
         background-color: rgb(32, 32, 35);
         font-weight: 700;
@@ -1365,7 +1367,8 @@ svg {
 
     .email-link {
         position: relative;
-        left: 110px;
+        left: 50%;
+        margin-right: 35%;
         margin-top: 760px;
         color: rgb(140, 186, 235);
         background-color: rgb(32, 32, 35);
