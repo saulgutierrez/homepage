@@ -1106,6 +1106,28 @@ svg {
     height: 0px;
 }
 
+.label-medical-health {
+    position: absolute;
+    top: 280px;
+    right: 0px;
+    bottom: 0px;
+    left: 160px;
+    font-weight: 700;
+    height: 0px;
+    font-size: 20px;
+}
+
+.medical-health-description {
+    position: absolute;
+    top: 310px;
+    right: 0px;
+    bottom: 0px;
+    left: 230px;
+    font-weight: 400;
+    font-size: 16px;
+    height: 0px;
+}
+
 .btn-next-page {
     font-weight: 700;
     position: absolute;
@@ -2070,6 +2092,42 @@ svg {
     }
 
     .fashion-description {
+        position: absolute;
+        margin-top: 43%;
+        top: 33%;
+        left: 0px;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    /* MEDICAL HEALTH */
+    .content-medical-health {
+        margin: auto;
+        margin-bottom: 20%;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 170px;
+        background: url(main-view-medical-health.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .label-medical-health {
+        position: absolute;
+        margin-top: 33%;
+        top: 33%;
+        left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .medical-health-description {
         position: absolute;
         margin-top: 43%;
         top: 33%;
