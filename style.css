@@ -54,7 +54,7 @@ a {
     position: absolute;
     top: 270px;
     left: 0px;
-    right: 158px;
+    right: 445px;
     font-size: 23px;
     height: 0px;
 }
@@ -1163,6 +1163,28 @@ svg {
     height: 0px;
 }
 
+.label-php-crud {
+    position: absolute;
+    top: 280px;
+    right: 430px;
+    bottom: 0px;
+    left: 0px;
+    font-weight: 700;
+    font-size: 20px;
+    height: 0px;
+}
+
+.crud-description {
+    position: absolute;
+    top: 310px;
+    right: 300px;
+    bottom: 50px;
+    left: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    height: 0px;
+}
+
 .btn-next-page {
     font-weight: 700;
     position: absolute;
@@ -1254,16 +1276,16 @@ svg {
 
     .img {
         position: absolute;
-        margin-top: 160px;
-        margin-left: -40px;
+        margin-top: 90px;
+        margin-left: -70px;
         border-radius: 50%;
-        height: 100px;
+        height: 140px;
         border: rgb(255, 255, 255) 3px solid;
     }
 
     .bio {
         position: absolute;
-        top: 550px;
+        top: 500px;
         left: 0px;
         right: 0px;
         bottom: 10px;
@@ -1276,7 +1298,7 @@ svg {
 
     .bio-year-1 {
         position: absolute;
-        top: 590px;
+        top: 540px;
         left: 0px;
         right: 0px;
         bottom: 0px;
@@ -1297,7 +1319,7 @@ svg {
 
     .bio-description-1 {
         position: absolute;
-        top: 590px;
+        top: 540px;
         left: 0px;
         right: 0px;
         bottom: 0px;
@@ -1308,7 +1330,7 @@ svg {
 
     .bio-year-2 {
         position: absolute;
-        top: 650px;
+        top: 600px;
         left:  0px;
         right: 0px;
         bottom: 0px;
@@ -1320,7 +1342,7 @@ svg {
 
     .bio-description-2 {
         position: absolute;
-        top: 650px;
+        top: 600px;
         left: 0px;
         right: 0px;
         bottom: 0px;
@@ -1332,7 +1354,7 @@ svg {
     .hobbies {
         text-decoration: underline;
         position: absolute;
-        top: 730px;
+        top: 690px;
         left: 0px;
         right: 0px;
         bottom: 0px;
@@ -1344,7 +1366,7 @@ svg {
 
     .hobbies-list {
         position: absolute;
-        top: 770px;
+        top: 730px;
         left: 0px;
         right: 25px;
         bottom: 0px;
@@ -1355,7 +1377,7 @@ svg {
 
     .social {
         position: absolute;
-        top: 840px;
+        top: 800px;
         left: 0px;
         right: 0px;
         bottom: 0px;
@@ -1369,7 +1391,7 @@ svg {
     .github-link {
         position: relative;
         left: 50%;
-        top: 150px;
+        top: 120px;
         margin-right: 0%;
         color: rgb(139, 185, 235);
         background-color: rgb(32, 32, 35);
@@ -1379,7 +1401,7 @@ svg {
 
     .linkedin-link {
         position: relative;
-        top: 150px;
+        top: 125px;
         left: 50%;
         margin-right: 0%;
         color: rgb(140, 186, 235);
@@ -1391,7 +1413,7 @@ svg {
         position: relative;
         left: 50%;
         margin-right: 35%;
-        margin-top: 760px;
+        margin-top: 728px;
         color: rgb(140, 186, 235);
         background-color: rgb(32, 32, 35);
         font-weight: 700;
@@ -2370,6 +2392,44 @@ svg {
         top: 0px;
     }
     /************* END BLOG PAGE ********************/
+
+    /************* BACKEND WORKS *******************/
+    .content-php-crud {
+        margin: 150px auto;
+        margin-bottom: 20%;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 170px;
+        background: url(main-view-todo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .label-php-crud {
+        position: absolute;
+        margin-top: 33%;
+        top: 33%;
+        left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .crud-description {
+        position: absolute;
+        margin-top: 43%;
+        top: 33%;
+        left: 0px;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    /************* END BACKEND WORKS ********************/
 }
 
 /* Tablets y phablets */
