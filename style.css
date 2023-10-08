@@ -290,6 +290,15 @@ svg {
     padding-bottom: 20px;
 }
 
+.footer-works-apps-2 {
+    color: rgb(77, 77, 79);
+    font-size: 16px;
+    position: relative;
+    top: 630px;
+    left: 0px;
+    padding-bottom: 20px;
+}
+
 .footer-analog-clock {
     color: rgb(77, 77, 79);
     font-size: 16px;
@@ -456,19 +465,6 @@ svg {
     padding-bottom: 2%;
 }
 
-.dictionary {
-    position: absolute;
-    width: 250px;
-    margin-top: 370px;
-    margin-left: -265px;
-    border-radius: 5px;
-    opacity: 0.5;
-}
-
-.dictionary:hover {
-    opacity: 1;
-}
-
 .analog-clock {
     position: absolute;
     width: 250px;
@@ -479,6 +475,19 @@ svg {
 }
 
 .analog-clock:hover {
+    opacity: 1;
+}
+
+.dictionary {
+    position: absolute;
+    width: 250px;
+    margin-top: 370px;
+    margin-left: -265px;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+.dictionary:hover {
     opacity: 1;
 }
 
@@ -911,6 +920,41 @@ svg {
     height: 0px;
 }
 
+.search-bar {
+    position: absolute;
+    width: 250px;
+    margin-top: 370px;
+    margin-left: -265px;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+.search-bar:hover {
+    opacity: 1;
+}
+
+.label-search-bar {
+    position: absolute;
+    top: 500px;
+    right: 0px;
+    bottom: 50px;
+    left: -430px;
+    font-weight: 700;
+    font-size: 20px;
+    height: 0px;
+}
+
+.search-bar-description {
+    position: absolute;
+    top: 530px;
+    right: 0px;
+    bottom: 50px;
+    left: -330px;
+    font-size: 16px;
+    font-weight: 400;
+    height: 0px;
+}
+
 .crypto {
     position: absolute;
     width: 250px;
@@ -1196,6 +1240,13 @@ svg {
     font-weight: 700;
     position: absolute;
     margin-top: 350px;
+    margin-left: -31px;
+}
+
+.btn-prev-page-apps {
+    font-weight: 700;
+    position: absolute;
+    margin-top: 580px;
     margin-left: -31px;
 }
 
@@ -1907,6 +1958,53 @@ svg {
         width: 100%;
     }
 
+    /* SEARCH BAR */
+    .search-bar {
+        display: none;
+    }
+
+    .content-search-bar {
+        margin: auto;
+        margin-bottom: 20%;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 170px;
+        background: url(main-view-search-bar.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .label-search-bar {
+        position: absolute;
+        margin-top: 33%;
+        top: 33%;
+        left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .search-bar-description {
+        position: absolute;
+        margin-top: 43%;
+        top: 33%;
+        left: 0px;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .btn-prev-page-apps {
+        font-weight: 700;
+        position: absolute;
+        margin-top: 0px;
+        margin-left: -31px;
+    }
+
     /**************** END WEB APPS **********************/
 
     /****************** UI DESIGN *********************/
@@ -2166,6 +2264,7 @@ svg {
         width: 100%;
     }
 
+    /* FASHION */
     .fashion {
         display: none;
     }
