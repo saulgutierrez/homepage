@@ -276,7 +276,7 @@ svg {
     color: rgb(77, 77, 79);
     font-size: 16px;
     position: relative;
-    top: 400px;
+    top: 630px;
     left: 0px;
     padding-bottom: 20px;
 }
@@ -1207,6 +1207,41 @@ svg {
     height: 0px;
 }
 
+.make-up {
+    position: absolute;
+    width: 250px;
+    margin-top: 370px;
+    margin-left: -265px;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+.make-up:hover {
+    opacity: 1;
+}
+
+.label-make-up {
+    position: absolute;
+    top: 500px;
+    right: 0px;
+    bottom: 50px;
+    left: -455px;
+    font-weight: 700;
+    font-size: 20px;
+    height: 0px;
+}
+
+.make-up-description {
+    position: absolute;
+    top: 530px;
+    right: 0px;
+    bottom: 50px;
+    left: -295px;
+    font-size: 16px;
+    font-weight: 400;
+    height: 0px;
+}
+
 .label-php-crud {
     position: absolute;
     top: 280px;
@@ -1239,7 +1274,7 @@ svg {
 .btn-prev-page {
     font-weight: 700;
     position: absolute;
-    margin-top: 350px;
+    margin-top: 580px;
     margin-left: -31px;
 }
 
@@ -2375,6 +2410,45 @@ svg {
     }
 
     .real-estate-description {
+        position: absolute;
+        margin-top: 43%;
+        top: 33%;
+        left: 0px;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .make-up {
+        display: none;
+    }
+
+    .content-make-up {
+        margin: auto;
+        margin-bottom: 20%;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 170px;
+        background: url(main-view-make-up.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .label-make-up {
+        position: absolute;
+        margin-top: 33%;
+        top: 33%;
+        left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .make-up-description {
         position: absolute;
         margin-top: 43%;
         top: 33%;
