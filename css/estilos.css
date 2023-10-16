@@ -194,7 +194,7 @@ ul .menu__nesting {
         width: 100%;
         transform: translateY(0);
         transition: height .3s;
-        height: 200px;
+        height: 250px;
     }
 
     .menu__link--inside{

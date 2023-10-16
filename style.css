@@ -320,6 +320,7 @@ svg {
 .todo-works {
     position: absolute;
     width: 250px;
+    height: 123px;
     margin-top: 880px;
     margin-left: -265px;
     border-radius: 5px;
@@ -1284,6 +1285,40 @@ svg {
     margin-top: 580px;
     margin-left: -31px;
 }
+
+/******************** DESKTOP PAGE *******************/
+.label-my-paint {
+    position: absolute;
+    top: 280px;
+    right: 453px;
+    bottom: 0px;
+    left: 0px;
+    font-weight: 700;
+    font-size: 20px;
+    height: 0px;
+}
+
+.my-paint-description {
+    position: absolute;
+    top: 310px;
+    right: 370px;
+    bottom: 0px;
+    left: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    height: 0px;
+}
+
+.footer-blog {
+    color: rgb(77, 77, 79);
+    font-size: 16px;
+    position: relative;
+    top: 350px;
+    left: 0px;
+    padding-bottom: 20px;
+}
+
+/******************** END DESKTOP PAGE ***************/
 
 /******************** BLOG PAGE ***********************/
 .posts {
@@ -2603,6 +2638,48 @@ svg {
     }
 
     /************* END BACKEND WORKS ********************/
+
+
+    /************* DESKTOP WORKS ************************/
+    .content-my-paint {
+        margin: 150px auto;
+        margin-bottom: 20%;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 190px;
+        background: url(my-paint.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .label-my-paint {
+        position: absolute;
+        margin-top: 38%;
+        top: 33%;
+        left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .my-paint-description {
+        position: absolute;
+        margin-top: 48%;
+        top: 33%;
+        left: 0px;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .footer-blog-responsive {
+        position: relative;
+        top: 0px;
+    }
 }
 
 /* Tablets y phablets */
