@@ -843,6 +843,7 @@ svg {
     left: -410px;
     font-weight: 700;
     font-size: 20px;
+    height: 0px;
 }
 
 .digital-clock-description {
@@ -853,6 +854,7 @@ svg {
     bottom: 0px;
     font-size: 16px;
     font-weight: 400;
+    height: 0px;
 }
 
 .label-quiz {
@@ -1117,6 +1119,7 @@ svg {
     left: -435px;
     font-weight: 700;
     font-size: 20px;
+    height: 0px;
 }
 
 .bookstore-description {
@@ -1127,6 +1130,7 @@ svg {
     bottom: 0px;
     font-size: 16px;
     font-weight: 400;
+    height: 0px;
 }
 
 .fashion {
