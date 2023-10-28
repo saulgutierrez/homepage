@@ -340,6 +340,7 @@ svg {
     border-radius: 5px;
     opacity: 0.5;
     margin-top: 150px;
+    height: 123px;
 }
 
 .booklist-works:hover {
@@ -1308,6 +1309,28 @@ svg {
     right: 370px;
     bottom: 0px;
     left: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    height: 0px;
+}
+
+.label-my-notepad {
+    position: absolute;
+    top: 280px;
+    right: 0px;
+    bottom: 0px;
+    left: 130px;
+    font-weight: 700;
+    height: 0px;
+    font-size: 20px;
+}
+
+.my-notepad-description {
+    position: absolute;
+    top: 310px;
+    right: 0px;
+    bottom: 0px;
+    left: 212px;
     font-weight: 400;
     font-size: 16px;
     height: 0px;
@@ -2671,6 +2694,42 @@ svg {
     }
 
     .my-paint-description {
+        position: absolute;
+        margin-top: 48%;
+        top: 33%;
+        left: 0px;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .content-my-notepad {
+        margin: 150px auto;
+        margin-bottom: 20%;
+        margin-top: 0px;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 190px;
+        background: url(main-view-notepad.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .label-my-notepad {
+        position: absolute;
+        margin-top: 38%;
+        top: 33%;
+        left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .my-notepad-description {
         position: absolute;
         margin-top: 48%;
         top: 33%;
