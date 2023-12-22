@@ -1283,6 +1283,42 @@ svg {
     height: 0px;
 }
 
+.christmas-pastries {
+    position: absolute;
+    width: 250px;
+    height: 123px;
+    margin-top: 370px;
+    margin-left: 10px;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+.christmas-pastries:hover {
+    opacity: 1;
+}
+
+.label-christmas-pastries {
+    position: absolute;
+    top: 500px;
+    right: 0px;
+    bottom: 0px;
+    left: 190px;
+    font-weight: 700;
+    height: 0px;
+    font-size: 20px;
+}
+
+.christmas-pastries-description {
+    position: absolute;
+    top: 530px;
+    right: 0px;
+    bottom: 0px;
+    left: 245px;
+    font-size: 16px;
+    font-weight: 400;
+    height: 0px;
+}
+
 .label-php-crud {
     position: absolute;
     top: 280px;
@@ -2585,6 +2621,45 @@ svg {
     }
 
     .make-up-description {
+        position: absolute;
+        margin-top: 43%;
+        top: 33%;
+        left: 0px;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .christmas-pastries {
+        display: none;
+    }
+
+    .content-christmas-pastries {
+        margin: auto;
+        margin-bottom: 20%;
+        border-radius: 5px;
+        padding: 13px;
+        width: calc(100% - 80px);
+        height: 170px;
+        background: url(main-view-christmas-pastries.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .label-christmas-pastries {
+        position: absolute;
+        margin-top: 33%;
+        top: 33%;
+        left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        height: 0px;
+        color: white;
+        width: 100%;
+    }
+
+    .christmas-pastries-description {
         position: absolute;
         margin-top: 43%;
         top: 33%;
