@@ -1,6 +1,11 @@
 * {
     color: rgb(255, 255, 255);
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
+
 body{
     background-color: rgb(32, 32, 35);
     font-size: 20px;
@@ -3141,6 +3146,14 @@ svg {
     }
 
     img.christmas-pastries {
+        opacity: 1;
+    }
+
+    img.search-bar {
+        opacity: 1;
+    }
+
+    img.food-recipes {
         opacity: 1;
     }
 }
