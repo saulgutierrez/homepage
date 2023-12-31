@@ -50,8 +50,7 @@ a {
     text-align: left;
 }
 
-.hobbies-container,
-.contact-container {
+.hobbies-container, .contact-container {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -63,9 +62,7 @@ a {
     margin-top: 34px;
 }
 
-.hobbies-container .one,
-.hobbies-container .two,
-.hobbies-container .three {
+.hobbies-container .one, .hobbies-container .two, .hobbies-container .three {
     text-align: left;
 }
 
@@ -256,9 +253,19 @@ h1 {
         flex-direction: column;
         gap: 0px;
     }
+
+    .main-page, .hobbies-container, .contact-container, .tech-label, .tech-list, .platform-content, .platform-content-github {
+        width: 90%;
+    }
     
     .container-info {
         padding: 0;
+    }
+
+    .bio-container {
+        flex-direction: row;
+        width: 90%;
+        gap: 15px !important;
     }
 
     .container .container-project {
@@ -284,9 +291,5 @@ h1 {
     .project-description {
         width: 90%;
         margin-top: 40px;
-    }
-
-    .tech-label, .tech-list, .platform-content, .platform-content-github {
-        width: 90%;
     }
 }
