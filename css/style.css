@@ -157,20 +157,20 @@ h1 {
     color: rgb(139, 185, 235);
 }
 
-.analog-clock-full-description {
+.project-description {
     width: 530px;
     margin: 0 auto;
     text-align: justify;
 }
 
-.todo-features {
+.platform-content {
     width: 530px;
     margin: 0 auto;
     margin-top: 30px;
     text-align: justify;
 }
 
-.todo-platform-label {
+.platform-label {
     float: left;
     font-size: 16px;
     margin-right: 20px;
@@ -178,25 +178,25 @@ h1 {
     padding: 0px 5px;
 }
 
-.todo-platform {
+.platform {
     float: left;
     font-weight: 400;
     font-size: 16px;
     color: rgb(139, 185, 235);
 }
 
-.todo-platform:hover {
+.platform:hover {
     color: rgb(255, 255, 255);
 }
 
-.todo-features-github {
+.platform-content-github {
     width: 530px;
     margin: 0 auto;
     margin-top: 80px;
     text-align: justify;
 }
 
-.todo-github-label {
+.github-link-label {
     float: left;
     font-size: 16px;
     margin-right: 20px;
@@ -204,25 +204,25 @@ h1 {
     padding: 0px 5px;
 }
 
-.todo-github-link {
+.github-repo {
     float: left;
     font-weight: 400;
     font-size: 16px;
     color: rgb(139, 185, 235);
 }
 
-.todo-github-link:hover {
+.github-repo:hover {
     color: rgb(255, 255, 255);
 }
 
-.todo-tech-label {
+.tech-label {
     width: 530px;
     margin: 0 auto;
     margin-top: 130px;
     text-align: justify;
 }
 
-.todo-tech-list {
+.tech-list {
     width: 530px;
     margin: 0 auto;
     margin-top: 20px;
@@ -281,12 +281,12 @@ h1 {
         margin-top: 20px;
     }
 
-    .analog-clock-full-description {
+    .project-description {
         width: 90%;
         margin-top: 40px;
     }
 
-    .todo-tech-label, .todo-tech-list, .todo-features, .todo-features-github {
+    .tech-label, .tech-list, .platform-content, .platform-content-github {
         width: 90%;
     }
 }
