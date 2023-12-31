@@ -1,4 +1,7 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     color: rgb(255, 255, 255);
 }
 
@@ -6,10 +9,8 @@
     display: none;
 }
 
-body{
+body {
     background-color: rgb(32, 32, 35);
-    font-size: 20px;
-    display: block;
     text-align: center;
 }
 
@@ -18,11 +19,6 @@ a {
     font-weight: 700;
     text-decoration: none;
 }
-
-.nav-link {
-    color: white;
-}
-
 /* INDEX PAGE */
 .description {
     margin: 80px auto;
@@ -33,132 +29,58 @@ a {
     max-width: 550px;
 }
 
-.name {
-    position: absolute;
-    top: 170px;
-    left: -115px;
-    right: 300px;
-    bottom: 10px;
-    font-size: 30px;
-    font-weight: 700;
-    height: 0px;
-}
-
-.name2 {
-    position: absolute;
-    top: 210px;
-    left: -15px;
-    right: 300px;
-    bottom: 10px;
-    font-size: 30px;
-    font-weight: 700;
-    height: 0px;
-}
-
-.perfil-description {
-    position: absolute;
-    top: 270px;
-    left: 0px;
-    right: 445px;
-    font-size: 23px;
-    height: 0px;
-}
-
 .img {
-    position: absolute;
-    margin-top: -40px;
-    margin-left: 155px;
-    border-radius: 50%;
-    height: 120px;
-    border: rgb(255, 255, 255) 3px solid;
+    border-radius: 50% !important;
+    border: 1px solid #fff;
+    height: 140px !important;
+    width: 140px !important;
 }
 
-.bio {
-    position: absolute;
-    top: 320px;
-    left: -215px;
-    right: 300px;
-    bottom: 10px;
-    font-size: 20px;
-    font-weight: 700;
-    text-decoration: underline;
-    height: 0px;
+.main-page {
+    text-align: left;
+    gap: 55px !important;
+    margin-top: -70px;
 }
 
-.bio-year-1 {
-    position: absolute;
-    top: 360px;
-    left: -200px;
-    right: 300px;
-    bottom: 10px;
-    font-size: 20px;
-    font-weight: 700;
-    height: 0px;
+.bio-container {
+    gap: 55px !important;
 }
 
-.bio-description-1 {
-    position: absolute;
-    top: 360px;
-    left: 350px;
-    right: 50px;
-    bottom: 10px;
-    font-size: 20px;
-    height: 0px;
+.bio, .info {
+    text-align: left;
 }
 
-.bio-year-2 {
+.hobbies-container,
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    width: 550px;
     position: absolute;
-    top: 390px;
-    left: -200px;
-    right: 300px;
-    bottom: 10px;
-    font-size: 20px;
-    font-weight: 700;
-    height: 0px;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 34px;
 }
 
-.bio-description-2 {
-    position: absolute;
-    top: 390px;
-    left: 150px;
-    right: 50px;
-    bottom: 10px;
-    font-size: 20px;
-    height: 0px;
+.hobbies-container .one,
+.hobbies-container .two,
+.hobbies-container .three {
+    text-align: left;
 }
 
-.hobbies {
-    text-decoration: underline;
-    position: absolute;
-    top: 440px;
-    left: -170px;
-    right: 300px;
-    bottom: 10px;
-    font-size: 20px;
-    font-weight: 700;
-    height: 0px;
+.three, .info, button {
+    margin-top: 30px;
 }
 
-.hobbies-list {
-    position: absolute;
-    top: 470px;
-    left: -70px;
-    right: 0px;
-    bottom: 10px;
-    font-size: 20px;
-    height: 0px;
+.contact-container {
+    margin-top: 170px;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.social {
-    position: absolute;
-    top: 520px;
-    left: -440px;
-    right: 0px;
-    bottom: 10px;
-    font-size: 20px;
-    font-weight: 700;
-    text-decoration: underline;
-    height: 0px;
+.contact-container div {
+    transform: translate(-115%);
 }
 
 svg {
@@ -166,105 +88,15 @@ svg {
 }
 
 .github-link {
-    position: relative;
-    margin-top: 220px;
     color: rgb(139, 185, 235);
     background-color: rgb(32, 32, 35);
     font-weight: 700;
-    margin-left: -420px;
 }
 
 .github-link:hover {
     color: rgb(139, 185, 235);
 }
 
-.linkedin-link {
-    position: relative;
-    margin-top: 340px;
-    color: rgb(140, 186, 235);
-    background-color: rgb(32, 32, 35);
-    font-weight: 700;
-    margin-left: -175px;
-}
-
-.linkedin-link:hover {
-    color: rgb(139, 185, 235);   
-}
-
-.email-link {
-    position: relative;
-    margin-top: 460px;
-    color: rgb(140, 186, 235);
-    background-color: rgb(32, 32, 35);
-    font-weight: 700;
-    margin-left: -175px;
-}
-
-.email-link:hover {
-    color: rgb(139, 185, 235);   
-}
-
-.todo {
-    position: absolute;
-    width: 250px;
-    margin-top: 20px;
-    margin-left: -275px;
-    border-radius: 5px;
-}
-
-.booklist {
-    position: absolute;
-    width: 250px;
-    margin-top: 20px;
-    margin-left: 25px;
-    border-radius: 5px;
-}
-
-.label-todo {
-    position: absolute;
-    top: 880px;
-    bottom: 0px;
-    left: -455px;
-    right: 0px;
-    font-size: 20px;
-    font-weight: 700;
-    height: 0px;
-}
-
-.label-booklist {
-    position: absolute;
-    top: 880px;
-    left: 260px;
-    right: 100px;
-    bottom: 10px;
-    font-size: 20px;
-    font-weight: 700;
-    height: 0px;
-}
-
-.btn-projects {
-    font-weight: 700;
-    position: absolute;
-    margin-top: 210px;
-    margin-left: -66px;
-}
-
-.footer {
-    color: rgb(77, 77, 79);
-    font-size: 16px;
-    position: relative;
-    margin-top: 280px;
-    padding-bottom: 20px;
-}
-
-.footer-analog-clock {
-    color: rgb(77, 77, 79);
-    font-size: 16px;
-    position: relative;
-    margin-top: 280px;
-    padding-bottom: 20px;
-    margin-top: 60%;
-}
 
 /* WORKS PAGE */
 .main-container {
@@ -306,87 +138,7 @@ h1 {
     margin-top: 30px;
 }
 
-button {
-    margin-top: 20px;
-}
 /* END WORKS PAGE*/
-
-.booklist-features {
-    position: absolute;
-    left: 5%;
-    top: 110%;
-}
-
-.booklist-platform-label {
-    float: left;
-    font-size: 16px;
-    margin-right: 20px;
-    background: rgb(139, 185, 235, 0.5);
-    padding: 0px 5px;
-}
-
-.booklist-platform {
-    float: left;
-    font-weight: 400;
-    font-size: 16px;
-    color: rgb(139, 185, 235);
-}
-
-.booklist-platform:hover {
-    color: rgb(255, 255, 255);
-}
-
-.booklist-features-github {
-    position: absolute;
-    left: 5%;
-    top: 125%;  
-}
-
-.booklist-github-label {
-    float: left;
-    font-size: 16px;
-    margin-right: 20px;
-    padding: 0px 5px;
-    background: rgb(139, 185, 235, 0.5);
-}
-
-.booklist-github-link {
-    float: left;
-    font-weight: 400;
-    font-size: 16px;
-    color: rgb(139, 185, 235);
-}
-
-.booklist-link:hover {
-    color: rgb(255, 255, 255);
-}
-
-.booklist-tech-label {
-    position: absolute;
-    top: 140%;
-}
-
-.booklist-tech-list {
-    position: absolute;
-    top: 150%;
-}
-
-.booklist-img {
-    position: absolute;
-    width: 100%;
-    top: 190%;
-    left: 0%;
-}
-
-.footer-booklist {
-    color: rgb(77, 77, 79);
-    font-size: 16px;
-    position: absolute;
-    top: 150%;
-    width: 100%;
-    padding-bottom: 2%;
-}
-
 #contenedor {
     display: flex;
     flex-direction: row;
@@ -394,88 +146,21 @@ button {
     height: 0px;
     width: 530px;
     margin: 100px auto 50px auto;
-  }
+}
   
-  #contenedor > div {
+#contenedor > div {
     width: 50%;
     font-weight: 700;
-  }
+}
 
-  #year {
+#year {
     color: rgb(139, 185, 235);
-  }
+}
 
 .analog-clock-full-description {
     width: 530px;
     margin: 0 auto;
     text-align: justify;
-}
-
-.analog-clock-features {
-    position: absolute;
-    left: 5%;
-    top: 120%;
-}
-
-.analog-clock-platform-label {
-    float: left;
-    font-size: 16px;
-    margin-right: 20px;
-    background: rgb(139, 185, 235, 0.5);
-    padding: 0px 5px;
-}
-
-.analog-clock-platform {
-    float: left;
-    font-weight: 400;
-    font-size: 16px;
-    color: rgb(139, 185, 235);
-}
-
-.analog-clock-platform:hover {
-    color: rgb(255, 255, 255);
-}
-
-.analog-clock-features-github {
-    position: absolute;
-    left: 5%;
-    top: 160%;
-}
-
-.analog-clock-github-label {
-    float: left;
-    font-size: 16px;
-    margin-right: 20px;
-    padding: 0px 5px;
-    background: rgb(139, 185, 235, 0.5);
-}
-
-.analog-clock-github-link {
-    float: left;
-    font-weight: 400;
-    font-size: 16px;
-    color: rgb(139, 185, 235);
-}
-
-.analog-clock-github-link:hover {
-    color: rgb(255, 255, 255);
-}
-
-.analog-clock-tech-label {
-    position: absolute;
-    top: 220%;
-}
-
-.analog-clock-tech-list {
-    position: absolute;
-    margin-top: 45%;
-}
-
-.analog-clock-img {
-    position: absolute;
-    width: 550px;
-    margin-left: -100%;
-    margin-top: 65%;
 }
 
 .todo-features {
@@ -550,82 +235,14 @@ button {
     margin-top: 20px;
 }
 
-.footer-todo {
-    color: rgb(77, 77, 79);
-    font-size: 16px;
-    width: 530px;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 30px;
+@media only screen and (max-width: 767px) {
+    .info {
+        margin-top: 58px;
+    }
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 575px) {
-    /****************** INDEX PAGE ***************/
-    .name {
-        position: absolute;
-        top: 200px;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        margin-left: 35px;
-        text-align: left;
-    }
-
-    .name2 {
-        position: absolute;
-        top: 240px;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        margin-left: 35px;
-        text-align: left;
-    }
-
-    .perfil-description {
-        position: absolute;
-        top: 300px;
-        left: 30px;
-        right: 30px;
-        bottom: 0;
-        margin-left: 5px;
-        text-align: left;
-    }
-
-    .img {
-        position: absolute;
-        margin-top: 90px;
-        margin-left: -70px;
-        border-radius: 50%;
-        height: 140px;
-        border: rgb(255, 255, 255) 3px solid;
-    }
-
-    .bio {
-        position: absolute;
-        top: 500px;
-        left: 0px;
-        right: 0px;
-        bottom: 10px;
-        font-size: 20px;
-        font-weight: 700;
-        text-decoration: underline;
-        margin-left: 35px;
-        text-align: left;
-    }
-
-    .bio-year-1 {
-        position: absolute;
-        top: 540px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
-        font-size: 20px;
-        font-weight: 700;
-        margin-left: 35px;
-        text-align: left;
-    }
-
     .description {
         margin: 80px auto;
         background-color: rgb(49, 49, 52);
@@ -633,139 +250,8 @@ button {
         padding: 20px;
         min-width: calc(60% - 50px);
         max-width: calc(95% - 50px);
-    }
-
-    .bio-description-1 {
-        position: absolute;
-        top: 540px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
-        font-size: 20px;
-        margin-left: 95px;
-        text-align: left;
-    }
-
-    .bio-year-2 {
-        position: absolute;
-        top: 600px;
-        left:  0px;
-        right: 0px;
-        bottom: 0px;
-        font-size: 20px;
-        font-weight: 700;
-        margin-left: 35px;
-        text-align: left;
-    }
-
-    .bio-description-2 {
-        position: absolute;
-        top: 600px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
-        font-size: 20px;
-        margin-left: 95px;
-        text-align: left;
-    }
-
-    .hobbies {
-        text-decoration: underline;
-        position: absolute;
-        top: 690px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
-        font-size: 20px;
-        font-weight: 700;
-        margin-left: 35px;
-        text-align: left;
-    }
-
-    .hobbies-list {
-        position: absolute;
-        top: 730px;
-        left: 0px;
-        right: 25px;
-        bottom: 0px;
-        font-size: 20px;
-        margin-left: 35px;
-        text-align: justify;
-    }
-
-    .social {
-        position: absolute;
-        top: 800px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
-        font-size: 20px;
-        font-weight: 700;
-        text-decoration: underline;
-        margin-left: 35px;
-        text-align: left;
-    }
-
-    .github-link {
-        position: relative;
-        left: 177px;
-        top: 120px;
-        margin-right: 0%;
-        color: rgb(139, 185, 235);
-        background-color: rgb(32, 32, 35);
-        font-weight: 700;
+    }    
     
-    }
-
-    .linkedin-link {
-        position: relative;
-        top: 125px;
-        left: 177px;
-        margin-right: 0%;
-        color: rgb(140, 186, 235);
-        background-color: rgb(32, 32, 35);
-        font-weight: 700;
-    }
-
-    .email-link {
-        position: relative;
-        left: 177px;
-        margin-right: 33%;
-        margin-top: 728px;
-        color: rgb(140, 186, 235);
-        background-color: rgb(32, 32, 35);
-        font-weight: 700;
-    }
-    
-    .todo {
-        display: none;
-    }
-
-    .booklist {
-        display: none;
-    }
-
-    .label-todo {
-        position: absolute;
-        margin-top: 33%;
-        top: 30%;
-        left: 0px;
-        font-size: 20px;
-        font-weight: 700;
-        height: 0px;
-        color: white;
-    }
-
-    .label-booklist {
-        position: absolute;
-        margin-top: 33%;
-        top: 30%;
-        left: 30%;
-        font-size: 20px;
-        font-weight: 700;
-        height: 0px;
-        color: white;
-    }
     .container {
         flex-direction: column;
         gap: 0px;
@@ -773,16 +259,10 @@ button {
     
     .container-info {
         padding: 0;
-
     }
 
     .container .container-project {
         padding-bottom: 35px;
-    }
-
-    .footer-index-responsive {
-        position: absolute;
-        margin-top: 70px;
     }
 
     /************* PROJECT DETAILS PAGE ******************/
@@ -806,239 +286,7 @@ button {
         margin-top: 40px;
     }
 
-    .footer-todo {
-        color: rgb(77, 77, 79);
-        font-size: 16px;
+    .todo-tech-label, .todo-tech-list, .todo-features, .todo-features-github {
         width: 90%;
-        margin: auto;
-        margin-top: 50px;
-        margin-bottom: 30px;
-    }
-
-    .todo-tech-label {
-        width: 90%;
-    }
-
-    .todo-tech-list {
-        width: 90%;
-    }
-
-    .todo-features {
-        width: 90%;
-    }
-
-    .todo-features-github {
-        width: 90%;
-    }
-}
-
-/* Tablets y phablets */
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-    /* INDEX PAGE */
-    .content-index {
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        right: 0px;
-        bottom: 2000px;
-    }
-
-    .name {
-        margin-right: 0px;
-    }
-
-    .name2 {
-        position: absolute;
-        left: 0px;
-        top: 170px;
-        right: 45px;
-        bottom: 0px;
-    }
-
-    .content-image {
-        margin: 150px auto;
-        border-radius: 50%;
-        border: rgb(255, 255, 255) 3px solid;
-        padding: 13px;
-        width: 120px;
-        height: 120px;
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        background: url(Me.jpeg);
-        background-size: cover;
-    }
-
-    img.img {
-        display: none;
-    }
-
-    .perfil-description {
-        top: 220px;
-        height: 0px;
-    }
-
-    .bio {
-        position: absolute;
-        top: 420px;
-        left: 0px;
-        right: 510px;
-        bottom: 10px;
-        font-size: 20px;
-        font-weight: 700;
-        text-decoration: underline;
-    }
-
-    .bio-year-1 {
-        position: absolute;
-        top: 460px;
-        left: 0px;
-        right: 500px;
-        bottom: 10px;
-        font-size: 20px;
-        font-weight: 700;
-    }
-
-    .bio-description-1 {
-        position: absolute;
-        top: 460px;
-        left: 0px;
-        right: 150px;
-        bottom: 0px;
-        font-size: 20px;
-    }
-
-    .bio-year-2 {
-        position: absolute;
-        top: 490px;
-        left: 0px;
-        right: 500px;
-        bottom: 10px;
-        font-size: 20px;
-        font-weight: 700;
-    }
-
-    .bio-description-2 {
-        position: absolute;
-        top: 490px;
-        left: 52px;
-        right: 0px;
-        bottom: 0px;
-        font-size: 20px;
-    }
-
-    .hobbies {
-        text-decoration: underline;
-        position: absolute;
-        top: 540px;
-        left: 0px;
-        right: 465px;
-        bottom: 10px;
-        font-size: 20px;
-        font-weight: 700;
-    }
-
-    .hobbies-list {
-        position: absolute;
-        top: 570px;
-        left: -65px;
-        right: 0px;
-        bottom: 10px;
-        font-size: 20px;
-    }
-
-    .social {
-        position: absolute;
-        top: 620px;
-        left: 0px;
-        right: 440px;
-        bottom: 10px;
-        font-size: 20px;
-        font-weight: 700;
-        text-decoration: underline;
-    }
-
-    .content-social {
-        height: 0px;
-    }
-
-    .github-link {
-        position: relative;
-        margin-top: -20px;
-        color: rgb(139, 185, 235);
-        background-color: rgb(32, 32, 35);
-        font-weight: 700;
-    }
-
-    .linkedin-link {
-        position: relative;
-        margin-top: 90px;
-        color: rgb(140, 186, 235);
-        background-color: rgb(32, 32, 35);
-        font-weight: 700;
-    }
-
-    .email-link {
-        position: relative;
-        margin-top: 210px;
-        color: rgb(140, 186, 235);
-        background-color: rgb(32, 32, 35);
-        font-weight: 700;
-    }
-
-    .todo {
-        position: absolute;
-        width: 250px;
-        margin-top: 270px;
-        margin-left: -270px;
-        border-radius: 5px;
-        opacity: 1;
-    }
-
-    .booklist {
-        position: absolute;
-        width: 250px;
-        margin-top: 270px;
-        border-radius: 5px;
-        opacity: 1;
-    }
-
-    .label-todo {
-        position: absolute;
-        top: 970px;
-        bottom: 0px;
-        left: -445px;
-        right: 0px;
-        font-size: 20px;
-        font-weight: 700;
-    }
-
-    .label-todo-works {
-        font-size: 20px;
-    }
-
-    .label-booklist {
-        position: absolute;
-        top: 970px;
-        left: 160px;
-        right: 0px;
-        bottom: 10px;
-        font-size: 20px;
-        font-weight: 700;
-    }
-
-    .btn-projects {
-        font-weight: 700;
-        position: absolute;
-        margin-top: 450px;
-        margin-left: -66px;
-    }
-
-    .footer {
-        color: rgb(77, 77, 79);
-        font-size: 16px;
-        width: 90%;
-        margin: auto;
-        margin-top: 500px;
-        margin-bottom: 10px;
     }
 }
