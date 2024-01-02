@@ -175,16 +175,6 @@ h1 {
     padding: 0px 5px;
 }
 
-.platform {
-    float: left;
-    font-weight: 400;
-    font-size: 16px;
-    color: rgb(139, 185, 235);
-}
-
-.platform:hover {
-    color: rgb(255, 255, 255);
-}
 
 .platform-content-github {
     width: 530px;
@@ -201,14 +191,14 @@ h1 {
     padding: 0px 5px;
 }
 
-.github-repo {
+.link-label {
     float: left;
     font-weight: 400;
     font-size: 16px;
     color: rgb(139, 185, 235);
 }
 
-.github-repo:hover {
+.link-label:hover {
     color: rgb(255, 255, 255);
 }
 
@@ -238,7 +228,6 @@ h1 {
     }
 }
 
-/* X-Small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 575px) {
     .description {
         margin: 80px auto;
@@ -280,7 +269,6 @@ h1 {
         transform: translate(-50%);
     }
 
-    /************* PROJECT DETAILS PAGE ******************/
     #contenedor {
         display: flex;
         flex-direction: row;
