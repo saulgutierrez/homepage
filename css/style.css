@@ -272,6 +272,14 @@ h1 {
         padding-bottom: 35px;
     }
 
+    .contact-container {
+        margin-top: 200px;
+    }
+
+    .contact-container div {
+        transform: translate(-50%);
+    }
+
     /************* PROJECT DETAILS PAGE ******************/
     #contenedor {
         display: flex;
@@ -291,5 +299,11 @@ h1 {
     .project-description {
         width: 90%;
         margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 364px) {
+    .bio-container .info {
+        margin-top: 90px;
     }
 }
