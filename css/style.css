@@ -306,4 +306,28 @@ h1 {
     .bio-container .info {
         margin-top: 90px;
     }
+
+    .bio-container .bio {
+        margin-top: 30px;
+    }
+
+    .last-year {
+        position: relative;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 361px) {
+    .bio-container .info {
+        margin-top: 90px;
+    }
+
+    .bio-container .bio {
+        margin-top: 0px;
+    }
+
+    .last-year {
+        position: relative;
+        margin-top: 30px;
+    }
 }
