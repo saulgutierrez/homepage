@@ -266,7 +266,9 @@ h1 {
     }
 
     .contact-container div {
-        transform: translate(-50%);
+        position: relative;
+        margin-left: 180px;
+        margin-right: calc(100% - 380px);
     }
 
     #contenedor {
@@ -302,6 +304,10 @@ h1 {
     .last-year {
         position: relative;
         margin-top: 30px;
+    }
+
+    .contact-container div {
+        margin-right: -100px;
     }
 }
 
