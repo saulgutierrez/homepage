@@ -302,7 +302,7 @@ h1 {
     }
 }
 
-@media only screen and (max-width: 361px) {
+@media only screen and (max-width: 360px) {
     .bio-container .info {
         margin-top: 90px;
     }
