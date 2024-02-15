@@ -237,6 +237,11 @@ h1 {
     .main-page, .hobbies-container, .contact-container, .tech-label, .tech-list, .platform-content, .platform-content-github {
         width: 90%;
     }
+
+    .buttons {
+        flex-direction: row;
+        gap: 20px;
+    }
     
     .container-info {
         padding: 0;
